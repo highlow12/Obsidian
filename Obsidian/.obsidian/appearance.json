@@ -1,9 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "",
-  "theme": "obsidian",
   "interfaceFontFamily": "D2Coding",
   "textFontFamily": "D2Coding",
-  "monospaceFontFamily": "D2Coding",
-  "baseFontSize": 19
+  "monospaceFontFamily": "D2Coding"
 }
