@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"3. 리소스/C\"  ",
@@ -27,18 +27,25 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "path:\"3. 리소스/커피\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6766882
+      }
     }
   ],
-  "collapse-display": true,
-  "showArrow": true,
+  "collapse-display": false,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.00472727272727,
   "collapse-forces": false,
-  "centerStrength": 0.541666666666667,
-  "repelStrength": 8.75,
+  "centerStrength": 0.498107606679035,
+  "repelStrength": 9.96215213358071,
   "linkStrength": 1,
   "linkDistance": 174,
-  "scale": 0.6265277125854478,
+  "scale": 0.44688684404016565,
   "close": true
 }
