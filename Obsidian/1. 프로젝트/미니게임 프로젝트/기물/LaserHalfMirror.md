@@ -1,5 +1,5 @@
 # 레이저 피격시
-LaserMirror의 transfor.localPosition에서 레이저의 transform.right, transform.forward방향 방향으로 레이저 발사
+LaserMirror의 transform.localPosition에서 레이저 발사 항향으로 레이저 발사
 # 레이저 발사 조건
 레이저 피격시
 # 레이저 발사 방향
