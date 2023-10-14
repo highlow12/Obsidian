@@ -20,3 +20,12 @@ public virtual void hitLaser(Vector3 dir)
 ```
 레이저에 피격됬다면 호출됩니다
 실행되는 코드는 오브젝트마다 다르므로 상속된 코드에서 오버라이딩 해주십시오
+
+예시
+```c#
+public override void hitLaser(Vector3 dir)
+{
+	//레이저에 맞으면 로그 출력
+	Debug.Log("Laser hit" + dir);
+}
+```
