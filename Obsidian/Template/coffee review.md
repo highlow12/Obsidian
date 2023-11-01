@@ -1,3 +1,7 @@
+---
+tags:
+  - CoffeeReview
+---
 # {{title}}
 {{date}}
 로스터리: 
@@ -11,4 +15,4 @@
 - 후반:
 
 
-![[Pasted image 20231101124428.png]]
+![[SCA Coffee Taster's Flavor Wheel.png]]
