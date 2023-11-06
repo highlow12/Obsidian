@@ -4,5 +4,6 @@
   "textFontFamily": "D2Coding",
   "monospaceFontFamily": "D2Coding",
   "cssTheme": "Things",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "theme": "obsidian"
 }
