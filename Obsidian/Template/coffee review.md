@@ -1,6 +1,7 @@
 ---
 tags:
   - CoffeeReview
+date: "{{date}}"
 ---
 # {{title}}
 {{date}}
