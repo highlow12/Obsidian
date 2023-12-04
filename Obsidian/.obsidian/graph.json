@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"3. 리소스/커피\"  ",
@@ -20,20 +20,13 @@
         "a": 1,
         "rgb": 5431473
       }
-    },
-    {
-      "query": "",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0.1,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1.00472727272727,
+  "nodeSizeMultiplier": 1.23745454545455,
+  "lineSizeMultiplier": 1.23745454545455,
   "collapse-forces": false,
   "centerStrength": 0.498107606679035,
   "repelStrength": 9.96215213358071,
