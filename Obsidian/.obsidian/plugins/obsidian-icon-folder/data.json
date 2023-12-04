@@ -5,7 +5,12 @@
     "fontSize": 16,
     "emojiStyle": "twemoji",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "IbGames",
+      "🍁",
+      "IbHotBrew",
+      "SiC"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -19,5 +24,9 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true
-  }
+  },
+  "3. 리소스/C": "SiC",
+  "3. 리소스/커피": "IbHotBrew",
+  "2. 에어리어/메이플": "🍁",
+  "1. 프로젝트/미니게임 프로젝트": "IbGames"
 }
