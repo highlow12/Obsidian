@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbArrowDown",
       "IbGames",
       "🍁",
       "IbHotBrew",
@@ -28,5 +29,6 @@
   "3. 리소스/C": "SiC",
   "3. 리소스/커피": "IbHotBrew",
   "2. 에어리어/메이플": "🍁",
-  "1. 프로젝트/미니게임 프로젝트": "IbGames"
+  "1. 프로젝트/미니게임 프로젝트": "IbGames",
+  "1. 프로젝트/미니게임 프로젝트/해야할거.md": "IbArrowDown"
 }
