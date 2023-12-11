@@ -8,5 +8,9 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "userIgnoreFilters": [
+    "4. 아카이브/게임 개발-기각/",
+    "4. 아카이브/디지로그/"
+  ]
 }
