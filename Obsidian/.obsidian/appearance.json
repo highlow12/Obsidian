@@ -3,9 +3,9 @@
   "interfaceFontFamily": "D2Coding",
   "textFontFamily": "D2Coding",
   "monospaceFontFamily": "D2Coding",
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "baseFontSize": 17,
   "theme": "obsidian",
-  "translucency": true,
+  "translucency": false,
   "nativeMenus": true
 }
