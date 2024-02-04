@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "path:\"2. 에어리어/커피리뷰\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14516007
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +39,6 @@
   "repelStrength": 9.96215213358071,
   "linkStrength": 1,
   "linkDistance": 139,
-  "scale": 0.8657593080670997,
+  "scale": 0.617524870981246,
   "close": false
 }
