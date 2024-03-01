@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"15994e1e1122e8f9","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/스토리 씬.md","x":-540,"y":-680,"width":400,"height":400},
+		{"id":"90f13cc6b1432b08","x":-100,"y":-640,"width":250,"height":60,"color":"1","type":"text","text":"시작"},
+		{"id":"c988d8744bbd5b6a","x":200,"y":-640,"width":250,"height":60,"color":"5","type":"text","text":"스크립트 저장소"}
+	],
+	"edges":[]
+}

@@ -3,12 +3,16 @@
 		{"id":"90f9050d924695f3","type":"text","text":"메인화면","x":-1160,"y":-560,"width":250,"height":50,"color":"1"},
 		{"id":"150418aec8a705e6","type":"text","text":"시작","x":-1160,"y":-660,"width":250,"height":60,"color":"1"},
 		{"id":"a4a189d0036942fb","type":"text","text":"새로 시작","x":-1160,"y":-420,"width":250,"height":60},
-		{"id":"c8459e8161ac77ab","type":"text","text":"이어하기","x":-880,"y":-420,"width":250,"height":60},
-		{"id":"094eb36ed7431c32","type":"text","text":"보관소(여러 수집물을 볼수 있는 공간)","x":-600,"y":-420,"width":250,"height":60},
-		{"id":"7642022c5f4ac7bf","type":"text","text":"저장소 선택","x":-880,"y":-320,"width":250,"height":60},
-		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-1600,"y":-660,"width":400,"height":400,"color":"6"},
-		{"id":"eb7fc53678c37a56","x":-320,"y":-420,"width":250,"height":60,"type":"text","text":"설정"},
-		{"id":"0af82266a3f9b5f9","type":"text","text":"이름 선택","x":-1160,"y":-320,"width":250,"height":60}
+		{"id":"0af82266a3f9b5f9","type":"text","text":"이름 선택","x":-1160,"y":-320,"width":250,"height":60},
+		{"id":"c8459e8161ac77ab","type":"text","text":"이어하기","x":-800,"y":-420,"width":250,"height":60},
+		{"id":"7642022c5f4ac7bf","type":"text","text":"저장소 선택","x":-800,"y":-320,"width":250,"height":60},
+		{"id":"094eb36ed7431c32","type":"text","text":"보관소(여러 수집물을 볼수 있는 공간)","x":-440,"y":-420,"width":250,"height":60},
+		{"id":"eb7fc53678c37a56","type":"text","text":"설정","x":-80,"y":-420,"width":250,"height":60},
+		{"id":"4286323d4d36d0b9","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/스토리 씬.md","x":-1020,"y":-120,"width":320,"height":300,"color":"4"},
+		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-1620,"y":-370,"width":400,"height":400,"color":"6"},
+		{"id":"25f105afb8a55bd5","x":-1285,"y":100,"width":250,"height":60,"type":"text","text":"이벤트 씬"},
+		{"id":"1b682474dc74a328","x":-780,"y":240,"width":250,"height":60,"type":"text","text":"엔딩이 아니라면"},
+		{"id":"ee6e9758b95b6880","x":-985,"y":340,"width":250,"height":60,"color":"1","type":"text","text":"엔딩"}
 	],
 	"edges":[
 		{"id":"08fd88ec14a94d31","fromNode":"150418aec8a705e6","fromSide":"bottom","toNode":"90f9050d924695f3","toSide":"top"},
@@ -17,6 +21,13 @@
 		{"id":"456bbba231b64949","fromNode":"90f9050d924695f3","fromSide":"bottom","toNode":"c8459e8161ac77ab","toSide":"top"},
 		{"id":"52457b0429aabee5","fromNode":"c8459e8161ac77ab","fromSide":"bottom","toNode":"7642022c5f4ac7bf","toSide":"top"},
 		{"id":"c00f8093edbe4a29","fromNode":"90f9050d924695f3","fromSide":"bottom","toNode":"eb7fc53678c37a56","toSide":"top"},
-		{"id":"bb9604390529e0a6","fromNode":"a4a189d0036942fb","fromSide":"bottom","toNode":"0af82266a3f9b5f9","toSide":"top"}
+		{"id":"bb9604390529e0a6","fromNode":"a4a189d0036942fb","fromSide":"bottom","toNode":"0af82266a3f9b5f9","toSide":"top"},
+		{"id":"118ee99bfefbd7a2","fromNode":"0af82266a3f9b5f9","fromSide":"bottom","toNode":"4286323d4d36d0b9","toSide":"top"},
+		{"id":"295fa235c3d632bf","fromNode":"7642022c5f4ac7bf","fromSide":"bottom","toNode":"4286323d4d36d0b9","toSide":"top"},
+		{"id":"46b5c4c297f1fbeb","fromNode":"4286323d4d36d0b9","fromSide":"left","toNode":"25f105afb8a55bd5","toSide":"top"},
+		{"id":"368a1236f681e175","fromNode":"1b682474dc74a328","fromSide":"right","toNode":"4286323d4d36d0b9","toSide":"right"},
+		{"id":"610ebac1aca815db","fromNode":"1b682474dc74a328","fromSide":"bottom","toNode":"ee6e9758b95b6880","toSide":"top","color":"1"},
+		{"id":"a786009ebd7ebc57","fromNode":"25f105afb8a55bd5","fromSide":"bottom","toNode":"1b682474dc74a328","toSide":"left"},
+		{"id":"156bab9d67d9043c","fromNode":"4286323d4d36d0b9","fromSide":"bottom","toNode":"1b682474dc74a328","toSide":"left"}
 	]
 }
