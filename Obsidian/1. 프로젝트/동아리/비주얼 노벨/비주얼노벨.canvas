@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"90f9050d924695f3","x":-1160,"y":-560,"width":250,"height":50,"color":"1","type":"text","text":"메인화면"},
+		{"id":"150418aec8a705e6","x":-1160,"y":-660,"width":250,"height":60,"color":"1","type":"text","text":"시작"},
+		{"id":"a4a189d0036942fb","x":-1160,"y":-420,"width":250,"height":60,"type":"text","text":"새로 시작"},
+		{"id":"c8459e8161ac77ab","x":-880,"y":-420,"width":250,"height":60,"type":"text","text":"이어하기"},
+		{"id":"094eb36ed7431c32","x":-600,"y":-420,"width":250,"height":60,"type":"text","text":"보관소(여러 수집물을 볼수 있는 공간)"},
+		{"id":"61beeb980d8aae6a","x":-1160,"y":-320,"width":250,"height":60,"type":"text","text":"저장소 선택"},
+		{"id":"7642022c5f4ac7bf","type":"text","text":"저장소 선택","x":-880,"y":-320,"width":250,"height":60},
+		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-1600,"y":-660,"width":400,"height":400,"color":"6"},
+		{"id":"0af82266a3f9b5f9","x":-1160,"y":-220,"width":250,"height":60,"type":"text","text":"이름 선택"}
+	],
+	"edges":[
+		{"id":"08fd88ec14a94d31","fromNode":"150418aec8a705e6","fromSide":"bottom","toNode":"90f9050d924695f3","toSide":"top"},
+		{"id":"77ae6acafc62a718","fromNode":"90f9050d924695f3","fromSide":"bottom","toNode":"a4a189d0036942fb","toSide":"top"},
+		{"id":"7d659fca6f248577","fromNode":"90f9050d924695f3","fromSide":"bottom","toNode":"094eb36ed7431c32","toSide":"top"},
+		{"id":"456bbba231b64949","fromNode":"90f9050d924695f3","fromSide":"bottom","toNode":"c8459e8161ac77ab","toSide":"top"},
+		{"id":"934a0548028ef49f","fromNode":"a4a189d0036942fb","fromSide":"bottom","toNode":"61beeb980d8aae6a","toSide":"top"},
+		{"id":"52457b0429aabee5","fromNode":"c8459e8161ac77ab","fromSide":"bottom","toNode":"7642022c5f4ac7bf","toSide":"top"},
+		{"id":"8bd39bd7339a7228","fromNode":"61beeb980d8aae6a","fromSide":"bottom","toNode":"0af82266a3f9b5f9","toSide":"top"}
+	]
+}
