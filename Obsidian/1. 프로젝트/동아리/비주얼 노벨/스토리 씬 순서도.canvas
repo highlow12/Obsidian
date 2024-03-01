@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"90f13cc6b1432b08","type":"text","text":"시작","x":-100,"y":-640,"width":250,"height":60,"color":"1"},
+		{"id":"15994e1e1122e8f9","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/스토리 씬.md","x":-540,"y":-640,"width":400,"height":400},
+		{"id":"c988d8744bbd5b6a","type":"text","text":"스크립트 저장소.csv","x":200,"y":-640,"width":250,"height":60,"color":"5"},
+		{"id":"a362d07a15ae25e3","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-540,"y":-1080,"width":400,"height":400},
+		{"id":"fec233adf57c5f9c","type":"text","text":"현재 스크립트 라인","x":500,"y":-640,"width":250,"height":60,"color":"2"},
+		{"id":"717b6957eb59294f","type":"text","text":"현재 스크립트 가지고오기","x":-100,"y":-540,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"60f2570bd24d4609","fromNode":"717b6957eb59294f","fromSide":"right","toNode":"c988d8744bbd5b6a","toSide":"bottom","color":"5"},
+		{"id":"22bcd43a5653348b","fromNode":"fec233adf57c5f9c","fromSide":"bottom","toNode":"717b6957eb59294f","toSide":"right","color":"2"},
+		{"id":"dc2c1c895e4b6679","fromNode":"90f13cc6b1432b08","fromSide":"bottom","toNode":"717b6957eb59294f","toSide":"top"}
+	]
+}
