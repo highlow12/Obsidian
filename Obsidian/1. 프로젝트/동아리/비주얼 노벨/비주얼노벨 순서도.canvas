@@ -8,12 +8,12 @@
 		{"id":"7642022c5f4ac7bf","type":"text","text":"저장소 선택","x":-800,"y":-320,"width":250,"height":60},
 		{"id":"094eb36ed7431c32","type":"text","text":"보관소(여러 수집물을 볼수 있는 공간)","x":-440,"y":-420,"width":250,"height":60},
 		{"id":"eb7fc53678c37a56","type":"text","text":"설정","x":-80,"y":-420,"width":250,"height":60},
-		{"id":"4286323d4d36d0b9","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/스토리 씬.md","x":-1020,"y":-120,"width":320,"height":300,"color":"4"},
-		{"id":"ee6e9758b95b6880","type":"text","text":"엔딩","x":-985,"y":440,"width":250,"height":60,"color":"1"},
-		{"id":"624328c359ae59cb","x":-1345,"y":80,"width":250,"height":60,"type":"text","text":"이벤트 씬인가?"},
+		{"id":"624328c359ae59cb","type":"text","text":"이벤트 씬인가?","x":-1345,"y":80,"width":250,"height":60},
 		{"id":"25f105afb8a55bd5","type":"text","text":"이벤트 씬","x":-1345,"y":300,"width":250,"height":60},
-		{"id":"1b682474dc74a328","type":"text","text":"스토리 끝인가?","x":-985,"y":300,"width":250,"height":60},
-		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-515,"y":-40,"width":400,"height":400,"color":"6"}
+		{"id":"4286323d4d36d0b9","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/스토리 씬.md","x":-1035,"y":-160,"width":360,"height":300,"color":"4"},
+		{"id":"1b682474dc74a328","type":"text","text":"스토리 끝인가?","x":-980,"y":300,"width":250,"height":60},
+		{"id":"ee6e9758b95b6880","type":"text","text":"엔딩","x":-980,"y":440,"width":250,"height":60,"color":"1"},
+		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-470,"y":-210,"width":560,"height":540,"color":"6"}
 	],
 	"edges":[
 		{"id":"08fd88ec14a94d31","fromNode":"150418aec8a705e6","fromSide":"bottom","toNode":"90f9050d924695f3","toSide":"top"},
@@ -23,7 +23,7 @@
 		{"id":"52457b0429aabee5","fromNode":"c8459e8161ac77ab","fromSide":"bottom","toNode":"7642022c5f4ac7bf","toSide":"top"},
 		{"id":"c00f8093edbe4a29","fromNode":"90f9050d924695f3","fromSide":"bottom","toNode":"eb7fc53678c37a56","toSide":"top"},
 		{"id":"bb9604390529e0a6","fromNode":"a4a189d0036942fb","fromSide":"bottom","toNode":"0af82266a3f9b5f9","toSide":"top"},
-		{"id":"118ee99bfefbd7a2","fromNode":"0af82266a3f9b5f9","fromSide":"bottom","toNode":"4286323d4d36d0b9","toSide":"top"},
+		{"id":"118ee99bfefbd7a2","fromNode":"0af82266a3f9b5f9","fromSide":"right","toNode":"7642022c5f4ac7bf","toSide":"left"},
 		{"id":"295fa235c3d632bf","fromNode":"7642022c5f4ac7bf","fromSide":"bottom","toNode":"4286323d4d36d0b9","toSide":"top"},
 		{"id":"46b5c4c297f1fbeb","fromNode":"624328c359ae59cb","fromSide":"bottom","toNode":"25f105afb8a55bd5","toSide":"top","color":"4","label":"예"},
 		{"id":"368a1236f681e175","fromNode":"1b682474dc74a328","fromSide":"right","toNode":"4286323d4d36d0b9","toSide":"right","color":"1","label":"아니오"},
