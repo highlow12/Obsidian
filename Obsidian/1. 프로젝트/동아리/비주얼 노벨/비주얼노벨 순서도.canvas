@@ -13,7 +13,8 @@
 		{"id":"4286323d4d36d0b9","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/스토리 씬.md","x":-1035,"y":-160,"width":360,"height":300,"color":"4"},
 		{"id":"1b682474dc74a328","type":"text","text":"스토리 끝인가?","x":-980,"y":300,"width":250,"height":60},
 		{"id":"ee6e9758b95b6880","type":"text","text":"엔딩","x":-980,"y":440,"width":250,"height":60,"color":"1"},
-		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-470,"y":-210,"width":560,"height":540,"color":"6"}
+		{"id":"6ac7ebbfaf823115","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/비주얼 노벨 기능 목록.md","x":-470,"y":-210,"width":560,"height":540,"color":"6"},
+		{"id":"3a0ca6b4a01ba963","x":-1620,"y":-560,"width":400,"height":400,"color":"3","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/일정.md"}
 	],
 	"edges":[
 		{"id":"08fd88ec14a94d31","fromNode":"150418aec8a705e6","fromSide":"bottom","toNode":"90f9050d924695f3","toSide":"top"},
