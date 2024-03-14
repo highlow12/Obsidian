@@ -14,7 +14,8 @@
 		{"id":"717b6957eb59294f","type":"text","text":"현재 스크립트 가지고오기","x":40,"y":-1000,"width":250,"height":60},
 		{"id":"a623c3adfa1c9f64","type":"text","text":"선택지인가","x":40,"y":-900,"width":250,"height":60},
 		{"id":"64e278a27a03dd6b","type":"text","text":"선택지 출력","x":40,"y":-770,"width":250,"height":60},
-		{"id":"83d6e55a4b7777eb","type":"text","text":"이벤트 씬인가","x":40,"y":-140,"width":250,"height":60}
+		{"id":"83d6e55a4b7777eb","type":"text","text":"이벤트 씬인가","x":40,"y":-140,"width":250,"height":60},
+		{"id":"c545744a852ad302","x":-35,"y":0,"width":400,"height":400,"color":"4","type":"file","file":"1. 프로젝트/동아리/비주얼 노벨/클리커 씬.md"}
 	],
 	"edges":[
 		{"id":"60f2570bd24d4609","fromNode":"717b6957eb59294f","fromSide":"right","toNode":"c988d8744bbd5b6a","toSide":"bottom","fromEnd":"arrow","color":"5"},
@@ -33,6 +34,7 @@
 		{"id":"b092fffaa11c4a01","fromNode":"1468441ae0a48fa0","fromSide":"bottom","toNode":"20de9fadc82a6d16","toSide":"top"},
 		{"id":"35449a2266108c8f","fromNode":"83d6e55a4b7777eb","fromSide":"left","toNode":"717b6957eb59294f","toSide":"left","color":"1","label":"아니오"},
 		{"id":"5fd17efa7f9c72ba","fromNode":"20de9fadc82a6d16","fromSide":"bottom","toNode":"83d6e55a4b7777eb","toSide":"top"},
-		{"id":"b3bf93075d8392d2","fromNode":"83d6e55a4b7777eb","fromSide":"right","toNode":"c988d8744bbd5b6a","toSide":"bottom","color":"5"}
+		{"id":"b3bf93075d8392d2","fromNode":"83d6e55a4b7777eb","fromSide":"right","toNode":"c988d8744bbd5b6a","toSide":"bottom","color":"5"},
+		{"id":"f7dac62a47d9dd39","fromNode":"83d6e55a4b7777eb","fromSide":"bottom","toNode":"c545744a852ad302","toSide":"top","color":"4","label":"예"}
 	]
 }
