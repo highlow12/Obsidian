@@ -5,8 +5,15 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "path:\"1. 프로젝트/투자\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
     {
       "query": "path:\"1. 프로젝트/동아리/비주얼 노벨\"  ",
       "color": {
@@ -29,24 +36,17 @@
       }
     },
     {
+      "query": "path:Template  ",
+      "color": {
+        "a": 1,
+        "rgb": 1938957
+      }
+    },
+    {
       "query": "path:\"1. 프로젝트\"  ",
       "color": {
         "a": 1,
         "rgb": 10102824
-      }
-    },
-    {
-      "query": "path:\"2. 에어리어\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 5359697
-      }
-    },
-    {
-      "query": "path:\"3. 리소스\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 4675799
       }
     },
     {
@@ -57,10 +57,17 @@
       }
     },
     {
-      "query": "path:Template  ",
+      "query": "path:\"3. 리소스\"  ",
       "color": {
         "a": 1,
-        "rgb": 1938957
+        "rgb": 4675799
+      }
+    },
+    {
+      "query": "path:\"2. 에어리어\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5359697
       }
     }
   ],
@@ -69,11 +76,11 @@
   "textFadeMultiplier": 0.1,
   "nodeSizeMultiplier": 1.09781818181818,
   "lineSizeMultiplier": 2.63381818181818,
-  "collapse-forces": true,
-  "centerStrength": 0.645269016697588,
-  "repelStrength": 9.96215213358071,
+  "collapse-forces": false,
+  "centerStrength": 0.665896296296296,
+  "repelStrength": 10.1321481481481,
   "linkStrength": 1,
-  "linkDistance": 139,
+  "linkDistance": 81,
   "scale": 0.4404653380300121,
   "close": true
 }
