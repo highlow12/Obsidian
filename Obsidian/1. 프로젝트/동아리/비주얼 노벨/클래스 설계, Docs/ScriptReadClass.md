@@ -1,5 +1,0 @@
-- public int Id: Id를 나타낸다
-- public string Name: 인물 이름을 나타낸다
-- public string Script: 대사를 나타낸다
-- public string Image: 인물 이미지를 나타낸다
-- public string Background: 배경 이미지를 나타낸다

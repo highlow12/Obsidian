@@ -1,4 +1,0 @@
-# Manager
-- [[ScriptLoadManager]]
-# Class
-- [[ScriptReadClass]]

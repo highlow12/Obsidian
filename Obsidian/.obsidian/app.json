@@ -13,5 +13,6 @@
     "4. 아카이브/게임 개발-기각/",
     "4. 아카이브/디지로그/"
   ],
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "promptDelete": false
 }
