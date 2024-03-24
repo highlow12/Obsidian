@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbGames",
+      "IbDpad",
       "🎮",
       "🏫",
-      "⭐",
-      "IbArrowDown",
-      "IbGames"
+      "⭐"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -29,11 +29,12 @@
   },
   "3. 리소스/커피": "IbHotBrew",
   "4. 아카이브/메이플": "🍁",
-  "1. 프로젝트/학교/전과 문의사항.md": "⭐",
   "1. 프로젝트/학교": "🏫",
   "4. 아카이브/C": "SiC",
   "3. 리소스/게임 개발 정보": "🎮",
   "4. 아카이브/2023 2학기 미니게임 프로젝트": "IbGames",
   "4. 아카이브/2023 2학기 미니게임 프로젝트/해야할거 - 일정.md": "IbArrowDown",
-  "1. 프로젝트/동아리/비주얼 노벨": "IbGames"
+  "2. 에어리어/전과 문의사항.md": "⭐",
+  "1. 프로젝트/동아리": "IbDpad",
+  "1. 프로젝트/동아리/2024 1학기 미니게임": "IbGames"
 }
