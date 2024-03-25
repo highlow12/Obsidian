@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "‼",
+      "TiListCheck",
       "📖",
       "TiPrompt",
-      "IbGames",
-      "IbDpad",
-      "🎮"
+      "IbGames"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "1. 프로젝트/동아리": "IbDpad",
   "1. 프로젝트/동아리/2024 1학기 미니게임": "IbGames",
   "1. 프로젝트/동아리/2024 프로그래밍 스터디": "TiPrompt",
-  "1. 프로젝트/동아리/비주얼 노벨": "📖"
+  "1. 프로젝트/동아리/비주얼 노벨": "📖",
+  "1. 프로젝트/todo list kanban.md": "‼"
 }
