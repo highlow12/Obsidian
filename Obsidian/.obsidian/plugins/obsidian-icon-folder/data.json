@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📖",
+      "TiPrompt",
       "IbGames",
       "IbDpad",
-      "🎮",
-      "🏫",
-      "⭐"
+      "🎮"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,5 +36,7 @@
   "4. 아카이브/2023 2학기 미니게임 프로젝트/해야할거 - 일정.md": "IbArrowDown",
   "2. 에어리어/전과 문의사항.md": "⭐",
   "1. 프로젝트/동아리": "IbDpad",
-  "1. 프로젝트/동아리/2024 1학기 미니게임": "IbGames"
+  "1. 프로젝트/동아리/2024 1학기 미니게임": "IbGames",
+  "1. 프로젝트/동아리/2024 프로그래밍 스터디": "TiPrompt",
+  "1. 프로젝트/동아리/비주얼 노벨": "📖"
 }
