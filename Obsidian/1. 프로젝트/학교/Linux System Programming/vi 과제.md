@@ -2,4 +2,6 @@
 :%s/North Korea/NK
 :s/media/HELLO
 :4,10 d
-P
+O
+:s/combat/"combat"
+:wq
