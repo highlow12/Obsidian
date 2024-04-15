@@ -4,4 +4,4 @@
 :4,10 d
 O
 :s/combat/"combat"
-:wq
+:w vi2.txt
