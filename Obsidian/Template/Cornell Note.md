@@ -2,6 +2,7 @@
 tags:
   - school
   - cornell
+subject:
 ---
 > [!tip] 요약
 

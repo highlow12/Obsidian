@@ -1,3 +1,4 @@
 ```dataview
-table file.cday St
+table tags
+From #school and #cornell
 ```
