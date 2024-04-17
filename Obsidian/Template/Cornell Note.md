@@ -2,13 +2,13 @@
 tags:
   - school
   - cornell
-subject:
+subject: 
+date:
 ---
 > [!tip] 요약
-
-# {{date}} 과목: 
-## 내용1
+# {{title}}
+# 내용1
 - 
-## 내용2
+# 내용2
 - 
 > [!question] 질문
