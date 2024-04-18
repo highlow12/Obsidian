@@ -1,7 +1,9 @@
 ---
 tags:
   - CoffeeReview
-date: "{{date}}"
+date: '"{{date}}"'
+rate: 
+major_change:
 ---
 # {{title}}
 {{date}}
