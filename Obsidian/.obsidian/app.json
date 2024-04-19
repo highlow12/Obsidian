@@ -14,5 +14,8 @@
     "4. 아카이브/디지로그/"
   ],
   "useMarkdownLinks": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "vimMode": false
 }
