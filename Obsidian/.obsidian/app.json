@@ -15,7 +15,7 @@
   ],
   "useMarkdownLinks": false,
   "promptDelete": false,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "showLineNumber": false,
   "vimMode": false
 }
