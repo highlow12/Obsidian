@@ -23,4 +23,4 @@ major_change:
 
 
 
-![[SCA Coffee Taster's Flavor Wheel.png]]
+![[SCA_플레이버휠_한영판.pdf]]
