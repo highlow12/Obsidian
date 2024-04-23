@@ -4,4 +4,5 @@
 # 선형 큐 (liner queue)
 ![[Liner Queue]]
 # 원형 (circular queue)
+![[Circular Queue]]
 # 덱(deque)

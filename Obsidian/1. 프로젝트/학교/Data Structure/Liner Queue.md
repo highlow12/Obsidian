@@ -13,7 +13,6 @@ function push(item):
     stack.append(item)
     size = size + 1
 ```
-
 ## pop 함수
 ```
 function pop():
@@ -25,7 +24,6 @@ function pop():
     size = size - 1
     return item
 ```
-
 ## peek/top 함수
 ```
 function peek():
@@ -34,9 +32,13 @@ function peek():
     end if
     return stack[size - 1]
 ```
-
 ## isEmpty 함수
 ```
 function isEmpty():
     return size == 0
+```
+## isFull 함수
+```
+function isFull():
+	return size == maxsize
 ```
