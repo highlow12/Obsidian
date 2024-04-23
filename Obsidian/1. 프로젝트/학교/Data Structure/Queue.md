@@ -3,6 +3,7 @@
 용도: 대기열, 패킷, 버퍼 등
 # 선형 큐 (liner queue)
 ![[Liner Queue]]
-# 원형 (circular queue)
+# 원형 큐(circular queue)
 ![[Circular Queue]]
+
 # 덱(deque)
