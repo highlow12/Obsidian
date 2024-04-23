@@ -11,4 +11,21 @@
 - `pop(stack)`: if(is_empty(stack)) return ERROR_STACKEMPTY; else 스택의 맨 위의 원소를 제거해서 반환한다.
 - `peek(stack)`:if(is_empty(stack)) return ERROR_STACKEMPTY; else 스택의 맨 위의 원소를 제거하지 않고 반환한다.
 # 구현
-- 
+## is_full(stack)
+```c
+bool is_full(stack s)	
+	if s.top == s.size -1
+		then return true
+		else return false
+```
+## is_empty(stack)
+```c
+bool is_empty(stack s)	
+	if s.top == -1
+		then return true
+		else return false
+```
+## push(stack, item)
+```c
+void push
+```
