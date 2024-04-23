@@ -12,20 +12,41 @@
 - `peek(stack)`:if(is_empty(stack)) return ERROR_STACKEMPTY; else 스택의 맨 위의 원소를 제거하지 않고 반환한다.
 # 구현
 ## is_full(stack)
-```c
+```
 bool is_full(stack s)	
 	if s.top == s.size -1
 		then return true
 		else return false
 ```
 ## is_empty(stack)
-```c
+```
 bool is_empty(stack s)	
 	if s.top == -1
 		then return true
 		else return false
 ```
 ## push(stack, item)
-```c
-void push
+```
+void push(stack s, item x)
+	if is_full(S)
+     then return "overflow"
+     else top ← top + 1
+          stack[top] ← x
+```
+## pop(stack)
+```
+var pop(stack s)
+	if is_empty(S)
+     then error "underflow"
+     else e ← stack[top]
+          top ← top-1
+          return e
+```
+## peek(stack)
+```
+var peek(stack s)
+	if is_empty(s)
+	then error "underflow"
+	else e ← stack[top]
+		return e
 ```
