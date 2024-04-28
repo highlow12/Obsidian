@@ -5,5 +5,23 @@
 # 구현
 ## insertAtBeginning
 ```
-function insertAtBeginning()
+function insertAtBeginning(head, element):
+	newnode = new node
+	newnode.element = element
+	
+	if head == null:
+		head = newnode
+		node.next = head
+	else:
+		node.next = head.link
+		head.next = newnode
+		
+	return head
+```
+## insertAtEnd
+```
+function insertAtEnd(head element):
+	newnode = new node
+	newNode.element = element
+    newNode.next = null
 ```
