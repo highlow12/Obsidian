@@ -23,6 +23,7 @@ function insertAtBeginning(head, element):
 function insertAtEnd(head element):
 	newnode = new node
 	newNode.element = element
+	
     if head == null:
 	    head = node
 	    node.next = head
@@ -30,6 +31,6 @@ function insertAtEnd(head element):
 		node.next = head.next
 		head.next = node
 		head = node
-
-	retu
+		
+	return head;
 ```
