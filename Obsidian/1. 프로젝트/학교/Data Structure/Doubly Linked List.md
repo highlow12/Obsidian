@@ -15,6 +15,20 @@ Dlnode:
 function dinsert(node, pre, element):
 	newnode = new node
 	newnode.element = element
+	
 	newnode.Llink = pre
-	newnode.Rlink
+	newnode.Rlink = pre.Rlink
+	
+	pre.Rlink.Llink = newnode
+	pre.Rlink = newnode
+```
+## remove
+```
+function ddlete(head, removed):
+	if removed == head:
+		return
+	removed.Llink.Rlink = removed.Rlink
+	removed.Rlink.Llink = removed.Llink
+	
+	free removed
 ```
