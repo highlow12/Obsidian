@@ -10,3 +10,11 @@ Dlnode:
 	Llink
 	Rlink
 ```
+## insert
+```
+function dinsert(node, pre, element):
+	newnode = new node
+	newnode.element = element
+	newnode.Llink = pre
+	newnode.Rlink
+```

@@ -30,7 +30,11 @@ function createList():
 ## insert
 ```
 function insert(head, pre, element):
-	
+	newnode = new node
+	newnode.element = element
+	newnode.next = pre.next
+	pre.next = newnode
+	return head
 ```
 ## isEmpty
 ```
