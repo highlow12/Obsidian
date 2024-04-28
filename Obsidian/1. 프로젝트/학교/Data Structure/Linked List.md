@@ -27,6 +27,11 @@ function createList():
     head = null
     return head
 ```
+## insert
+```
+function insert(head, pre, element):
+	
+```
 ## isEmpty
 ```
 function isEmpty(head):
