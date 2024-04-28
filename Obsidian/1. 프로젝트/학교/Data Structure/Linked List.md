@@ -10,8 +10,10 @@
 	1. new: 노드의 주소
 	2. new -> data: new 노드의 데이터 필드값
 	3. new -> link: new의 link 필드값 (== new.link)
-2. head porinter(head (=*phead)
-
+2. head porinter(head (== \*phead)
+	1. head: 첫번째 노드의 주소 값
+3. pre/p pointer (= 배열에서 index와 같은 역할)
+	1. pre/p pointer: 삽입될 노드의 선행 포인터.
 # 구현
 ## 노드
 ```
