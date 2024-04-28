@@ -5,6 +5,12 @@
 2. 단점:
     - **원하는 원소를 찾는 과정에서 탐색 비용이 높다**: 데이터를 찾기 위해 포인터로 모든 노드를 순회해야 하므로 탐색 속도가 느립니다.
     - **구현이 어렵다**: 배열에 비해 구현이 복잡할 수 있습니다
+# **개념정리**: 중요!
+1. 노드(주소 값, data 값, link 값)
+	1. new: 노드의 주소
+	2. new -> data: new 노드의 데이터 필드값
+	3. new -> link: new의 link 필드값 (== new.link)
+2. head porinter(head (=*phead)
 
 # 구현
 ## 노드
@@ -83,3 +89,7 @@ function findElement(head, element):
         position += 1
     return -1  // 원소를 찾지 못했을 때
 ```
+# 원형 연결 리스트
+![[Circular Linked List]]
+# 이중 연결 리스트
+![[Doubly Linked List]]
