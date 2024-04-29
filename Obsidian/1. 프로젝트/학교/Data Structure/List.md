@@ -12,6 +12,20 @@
 - `is_full(list)`:  리스트가 꽉 찼는지를 검사한다.
 - `print_list(list)`:  리스트의 모든 요소를 표시한다.
 # 리스트 종류
-![[Array List]]
-- - -
-![[Linked List]]
+## 어레이 기반 리스트
+![[Array List#특징]]
+## 링크드 리스트
+![[Linked List#특징]]
+## 원형 리스트
+![[Circular Linked List#특징]]
+## 더블 링크드 리스트
+![[Doubly Linked List#특징]]
+# 구현
+## 어레이 기반 리스트
+![[Array List#구현]]
+## 링크드 리스트
+![[Linked List#구현]]
+## 원형 리스트
+![[Circular Linked List#구현]]
+## 더블 링크드 리스트
+![[Doubly Linked List#구현]]
