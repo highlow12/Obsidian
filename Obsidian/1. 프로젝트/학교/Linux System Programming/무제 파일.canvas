@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"e7b716fc05607d6d","x":-43,"y":-200,"width":250,"height":60,"type":"text","text":"시작 파일을 읽고 실행"},
+		{"id":"c7abe1c578ca0e03","x":-43,"y":-100,"width":250,"height":60,"type":"text","text":"프롬프트 출력, 사용자 명령 대기"},
+		{"id":"f70b080fc3b9313f","x":-43,"y":-20,"width":250,"height":60,"type":"text","text":"사용자 명령 실행"},
+		{"id":"958448b9b29a136f","x":-43,"y":100,"width":250,"height":60,"type":"text","text":"종료"}
+	],
+	"edges":[
+		{"id":"65e149962f9794b0","fromNode":"e7b716fc05607d6d","fromSide":"bottom","toNode":"c7abe1c578ca0e03","toSide":"top"},
+		{"id":"d9dce33f2c1ace81","fromNode":"c7abe1c578ca0e03","fromSide":"bottom","toNode":"f70b080fc3b9313f","toSide":"top"},
+		{"id":"b55d407ae6a2a57a","fromNode":"f70b080fc3b9313f","fromSide":"right","toNode":"c7abe1c578ca0e03","toSide":"right"},
+		{"id":"55377d9b7b4f4535","fromNode":"f70b080fc3b9313f","fromSide":"bottom","toNode":"958448b9b29a136f","toSide":"top","label":"Control - D"}
+	]
+}
