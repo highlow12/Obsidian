@@ -18,7 +18,7 @@ tags:
 - 후위순회: LRV
 	- 루트노드 보다 자손 노드를 먼저 방문한다.
 		- 예: 디렉터리 용량 계산
-## 순회 방법 코드
+## 기본 순회 방법 알고리즘
 ### 전위순회
 ```
 preorder(x):
@@ -42,4 +42,23 @@ postorder(x):
 		postorder(Left(x))
 		postorder(Right(x))
 		print(DATA(X))
+```
+# 트리의 레벨 순회
+- 레벨 순회(Level order)는 각 노드를 레벨 순으로 검사하는 순회 방법
+- 레벨 순회는 ==큐==를 사용한다
+![[Pasted image 20240513171359.png]]
+## 레벨 순회 알고리즘
+```
+level_order(root):
+	init Queue q
+	q.enqueue(root)
+	
+	while is_empty(q):
+		x = q.dequeue
+		
+		if x != null
+			print(DATA(x))
+			
+		q.enqueue(Left(x))
+		q.enqueue(Right(x))
 ```
