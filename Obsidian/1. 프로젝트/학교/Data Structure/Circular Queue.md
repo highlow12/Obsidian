@@ -1,3 +1,9 @@
+---
+tags:
+  - List
+  - DataStructure
+  - Linear
+---
 # 원형 큐 ADT
 `enqueue`: 큐의 뒤쪽에 항목을 추가합니다.
 `dequeue`: 큐의 앞쪽에서 항목을 제거하고 반환합니다.
