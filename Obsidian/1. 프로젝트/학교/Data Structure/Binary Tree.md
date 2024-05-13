@@ -17,3 +17,5 @@
 ![[Array Binary Tree]]
 ## 연결 리스트를 이용하는 방법
 ![[List Binary Tree]]
+# ==이진 트리의 순회==
+![[Binary Tree Traversal]]
