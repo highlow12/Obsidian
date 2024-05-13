@@ -12,3 +12,8 @@
 ![[Full Binary Tree]]
 ## 완전 이진 트리
 ![[Complete Binary Tree]]
+# 이진 트리의 구현
+## 배열을 이용하는 방법
+![[Array Binary Tree]]
+## 연결 리스트를 이용하는 방법
+![[List Binary Tree]]
