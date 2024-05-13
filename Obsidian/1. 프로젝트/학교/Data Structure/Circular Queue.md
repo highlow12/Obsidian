@@ -1,8 +1,8 @@
 ---
 tags:
-  - List
   - DataStructure
   - Linear
+  - Queue
 ---
 # 원형 큐 ADT
 `enqueue`: 큐의 뒤쪽에 항목을 추가합니다.

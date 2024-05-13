@@ -1,3 +1,9 @@
+---
+tags:
+  - DataStructure
+  - Linear
+  - Stack
+---
 # 스택의 특징
 ***[[LIFO|LIFO(Last in First out)]]***: 후입선출
 용도: 괄호 계산, 후위연산자 계산 등

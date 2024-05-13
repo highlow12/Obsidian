@@ -1,3 +1,9 @@
+---
+tags:
+  - DataStructure
+  - Linear
+  - Queue
+---
 # 큐의 특징
 ***[[FIFO|FIFO(First in First out)]]***: 선입선출
 용도: 대기열, 패킷, 버퍼 등
