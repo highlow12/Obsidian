@@ -3,15 +3,15 @@
   "search": "",
   "showTags": false,
   "showAttachments": true,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"1. 프로젝트/투자\"  ",
+      "query": "tag:#CoffeeReview",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 13273110
       }
     },
     {
@@ -26,20 +26,6 @@
       "color": {
         "a": 1,
         "rgb": 6766882
-      }
-    },
-    {
-      "query": "path:\"2. 에어리어/커피리뷰\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14516007
-      }
-    },
-    {
-      "query": "path:Template  ",
-      "color": {
-        "a": 1,
-        "rgb": 1938957
       }
     },
     {
@@ -69,6 +55,13 @@
         "a": 1,
         "rgb": 5359697
       }
+    },
+    {
+      "query": "path:Template  ",
+      "color": {
+        "a": 1,
+        "rgb": 1938957
+      }
     }
   ],
   "collapse-display": true,
@@ -81,6 +74,6 @@
   "repelStrength": 10.1321481481481,
   "linkStrength": 1,
   "linkDistance": 81,
-  "scale": 0.446106030010682,
+  "scale": 0.4556270643655271,
   "close": true
 }
