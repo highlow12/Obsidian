@@ -3,12 +3,12 @@ Ollama는 오픈소스 [[LLM|Large Language Model (LLM)]]을 로컬 PC에서 쉽
 # Ollama 특징
 - 무료 오픈소스
 - 로컬 PC에서 실행 가능
-- Llama 2, Mistral 등 다양한 모델 지원
+- Llama 3, Mistral 등 다양한 모델 지원
 - 사용자 정의 프롬프트로 모델 커스터마이징 가능
 - REST API 제공
 
 # Ollama 지원 모델
-- Llama 3: 가장 인기있는 범용 모델
+- [[Llama3]]: 가장 인기있는 범용 모델
 - Mistral: Mistral AI에서 공개한 70억 파라미터 모델
 - CodeLlama: 코드 생성에 특화된 모델
 - Llama 2 Uncensored: 검열되지 않은 Llama 2 모델
