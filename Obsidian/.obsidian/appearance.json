@@ -9,7 +9,8 @@
   "translucency": false,
   "nativeMenus": true,
   "enabledCssSnippets": [
-    "image"
+    "image",
+    "wrapcode"
   ],
   "baseFontSizeAction": false
 }
