@@ -1,4 +1,4 @@
-[[Ollama|ollama]]를 사용하여 [[llama3]]를 실행하는 방법은 다음과 같습니다:
+[[Ollama|ollama]]를 사용하여 [[Llama3]]를 실행하는 방법은 다음과 같습니다:
 
 1. 먼저, [에서 ollama를 다운로드하고 설치합니다](https://ollama.com/%29)[1](https://devmeta.tistory.com/68)[2](https://rubywind.tistory.com/124).
 2. [설치가 완료되면, 터미널을 열고 `ollama run llama3` 명령어를 입력합니다](https://devmeta.tistory.com/68)[1](https://devmeta.tistory.com/68)[2](https://rubywind.tistory.com/124)[3](https://www.developerfastlane.com/blog/ollama-usage-guide)[4](https://discuss.pytorch.kr/t/ollama-llama3/4122).
