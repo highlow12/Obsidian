@@ -12,7 +12,7 @@ tags:
 - 전위순회: VLR
 	- 자손 노드보다 루트 노드를 먼저 방문한다
 		- 예: 구조화된 문서 출력
-- 중위순회: LVR
+- 중위순회: LVR ^ad56a4
 	- 왼쪽 자손, 루트, 오른쪽 자손 순서대로 방문한다
 		- 예: 수식 트리
 - 후위순회: LRV
@@ -62,3 +62,5 @@ level_order(root):
 		q.enqueue(Left(x))
 		q.enqueue(Right(x))
 ```
+# 이진 탐색 트리
+![[Binary Search Tree]]
