@@ -46,7 +46,7 @@ postorder(x):
 # 트리의 레벨 순회
 - 레벨 순회(Level order)는 각 노드를 레벨 순으로 검사하는 순회 방법
 - 레벨 순회는 ==큐==를 사용한다
-![[이진 트리 레벨 순회.png]]
+![[이진 트리 레벨 순회.png|500]]
 ## 레벨 순회 알고리즘
 ```
 level_order(root):
@@ -62,5 +62,3 @@ level_order(root):
 		q.enqueue(Left(x))
 		q.enqueue(Right(x))
 ```
-# 이진 탐색 트리
-![[Binary Search Tree]]
