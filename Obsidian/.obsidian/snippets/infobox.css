@@ -1,0 +1,64 @@
+/* 인포박스 기본 스타일 */
+.callout[data-callout~=infobox] {
+    --callout-color: var(--note, var(--background-primary));
+    --callout-padding: 0;
+    --callout-content-padding: 5px;
+    --callout-margin: 0 0 0 5px;
+    background: var(--note, var(--background-primary));
+    border: 0;
+    box-shadow: none;
+    width: auto;
+    max-width: 300px;
+    float: right;
+    border-radius: var(--radius-s);
+    margin-left: 25px;
+}
+
+/* 인포박스 테마별 윤곽선 스타일 */
+.theme-light .callout[data-callout~=infobox] {
+    border: 2.5px solid #ddd;
+}
+
+.theme-dark .callout[data-callout~=infobox] {
+    border: 2.5px solid #333;
+}
+
+/* 인포박스 제목 스타일 */
+.callout[data-callout~=infobox] .callout-title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: var(--background-secondary);
+}
+
+/* 인포박스 헤더 스타일 */
+.callout[data-callout~=infobox] .callout-content> :is(h1, h2, h3, h4, h5, h6) {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: var(--background-secondary);
+}
+
+/* 인포박스 테이블 스타일 */
+.callout[data-callout~=infobox] table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.callout[data-callout~=infobox] thead {
+    display: none;
+}
+
+.callout[data-callout~=infobox] tr>td:nth-child(1) {
+    font-weight: bold;
+}
+
+.callout[data-callout~=infobox] th,
+.callout[data-callout~=infobox] td {
+    border: none;
+}
+
+/* 인포박스 아이콘 스타일 */
+.callout[data-callout~=infobox] .callout-icon {
+    display: none;
+}
