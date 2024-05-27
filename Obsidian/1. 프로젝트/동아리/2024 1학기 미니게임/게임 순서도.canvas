@@ -12,51 +12,217 @@
     },
     {
       "id": "310b8ffe3eaa8f47",
+      "type": "text",
+      "text": "메인메뉴",
       "x": -320,
       "y": -280,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "메인메뉴"
+      "height": 60
     },
     {
       "id": "bbf463788564ee89",
+      "type": "text",
+      "text": "방 목록",
       "x": -320,
       "y": -180,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "방 목록"
+      "height": 60
     },
     {
       "id": "260de5628d9c38ca",
+      "type": "text",
+      "text": "준비",
       "x": -320,
       "y": -80,
       "width": 260,
-      "height": 60,
+      "height": 60
+    },
+    {
+      "id": "c7234e47c9a8ba0c",
       "type": "text",
-      "text": "준비"
+      "text": "마스터/bgm/sfx",
+      "x": 40,
+      "y": -40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "bd0230557103ac75",
+      "type": "text",
+      "text": "설정",
+      "x": 190,
+      "y": -310,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "45802f91a8d24f79",
+      "type": "text",
+      "text": "화면 설정",
+      "x": 350,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "48ff974230403e9f",
+      "type": "text",
+      "text": "음성 설정",
+      "x": 40,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ac6c6117493b4364",
+      "type": "text",
+      "text": "해상도/화면 종류",
+      "x": 350,
+      "y": -40,
+      "width": 260,
+      "height": 60
     },
     {
       "id": "ef7a9edba12eefee",
-      "x": -320,
-      "y": 40,
-      "width": 260,
-      "height": 60,
       "type": "text",
-      "text": "스테이지 진입"
+      "text": "스테이지 진입",
+      "x": -320,
+      "y": 20,
+      "width": 260,
+      "height": 60
     },
     {
       "id": "8d0a71cf74a17fcb",
       "type": "text",
       "text": "토벌 성공?",
       "shape": "diamond",
-      "x": -120,
-      "y": 255,
+      "x": -320,
+      "y": 140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "0bd64d71f8aaabd7",
+      "type": "text",
+      "text": "패배",
+      "x": 0,
+      "y": 140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "d44c22825bd11192",
+      "type": "text",
+      "text": "크래딧 표기 / 종료",
+      "x": -160,
+      "y": 420,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "bfb0e586e891a510",
+      "type": "text",
+      "text": "승리",
+      "x": -320,
+      "y": 260,
       "width": 260,
       "height": 60
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "id": "45067c5ee5e4c999",
+      "fromNode": "16ccf8e9202fc944",
+      "fromSide": "bottom",
+      "toNode": "310b8ffe3eaa8f47",
+      "toSide": "top"
+    },
+    {
+      "id": "a0ce3559987939b4",
+      "fromNode": "8d0a71cf74a17fcb",
+      "fromSide": "right",
+      "toNode": "0bd64d71f8aaabd7",
+      "toSide": "left",
+      "label": "N"
+    },
+    {
+      "id": "e54825fc4ebfdf25",
+      "fromNode": "8d0a71cf74a17fcb",
+      "fromSide": "bottom",
+      "toNode": "bfb0e586e891a510",
+      "toSide": "top",
+      "label": "Y"
+    },
+    {
+      "id": "d31fe8a81414e157",
+      "fromNode": "bfb0e586e891a510",
+      "fromSide": "bottom",
+      "toNode": "d44c22825bd11192",
+      "toSide": "top"
+    },
+    {
+      "id": "f50963152a0722ab",
+      "fromNode": "0bd64d71f8aaabd7",
+      "fromSide": "bottom",
+      "toNode": "d44c22825bd11192",
+      "toSide": "top"
+    },
+    {
+      "id": "0bb850259d3c84db",
+      "fromNode": "310b8ffe3eaa8f47",
+      "fromSide": "bottom",
+      "toNode": "bbf463788564ee89",
+      "toSide": "top"
+    },
+    {
+      "id": "bf7d107bd2cc8626",
+      "fromNode": "bbf463788564ee89",
+      "fromSide": "bottom",
+      "toNode": "260de5628d9c38ca",
+      "toSide": "top"
+    },
+    {
+      "id": "5dac6cdb034d953a",
+      "fromNode": "260de5628d9c38ca",
+      "fromSide": "bottom",
+      "toNode": "ef7a9edba12eefee",
+      "toSide": "top"
+    },
+    {
+      "id": "256bc92cdf6a1148",
+      "fromNode": "ef7a9edba12eefee",
+      "fromSide": "bottom",
+      "toNode": "8d0a71cf74a17fcb",
+      "toSide": "top"
+    },
+    {
+      "id": "19e689c30d0a360b",
+      "fromNode": "bd0230557103ac75",
+      "fromSide": "bottom",
+      "toNode": "48ff974230403e9f",
+      "toSide": "top"
+    },
+    {
+      "id": "4f9842db3f4261ec",
+      "fromNode": "bd0230557103ac75",
+      "fromSide": "bottom",
+      "toNode": "45802f91a8d24f79",
+      "toSide": "top"
+    },
+    {
+      "id": "d59ecdd343325560",
+      "fromNode": "48ff974230403e9f",
+      "fromSide": "bottom",
+      "toNode": "c7234e47c9a8ba0c",
+      "toSide": "top"
+    },
+    {
+      "id": "c8666e7a53f77666",
+      "fromNode": "45802f91a8d24f79",
+      "fromSide": "bottom",
+      "toNode": "ac6c6117493b4364",
+      "toSide": "top"
+    }
+  ],
   "metadata": {}
 }
