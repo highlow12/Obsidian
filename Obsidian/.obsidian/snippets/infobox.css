@@ -12,6 +12,10 @@
     float: right;
     border-radius: var(--radius-s);
     margin-left: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-family: var(--default-font);
 }
 
 /* 인포박스 테마별 윤곽선 스타일 */
@@ -23,42 +27,30 @@
     border: 2.5px solid #333;
 }
 
+/* 인포박스 제목 및 헤더 스타일 */
+.callout[data-callout~=infobox] .callout-title,
+.callout[data-callout~=infobox] .callout-content> :is(h1, h2, h3, h4, h5, h6) {
+    text-align: center;
+    width: 100%;
+    background: var(--background-secondary);
+    font-family: var(--default-font);
+}
+
 /* 인포박스 제목 스타일 */
 .callout[data-callout~=infobox] .callout-title {
     display: block;
-    text-align: center;
-    width: 100%;
-    background: var(--background-secondary);
-}
-
-/* 인포박스 헤더 스타일 */
-.callout[data-callout~=infobox] .callout-content> :is(h1, h2, h3, h4, h5, h6) {
-    display: block;
-    text-align: center;
-    width: 100%;
-    background: var(--background-secondary);
-}
-
-/* 인포박스 테이블 스타일 */
-.callout[data-callout~=infobox] table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.callout[data-callout~=infobox] thead {
-    display: none;
-}
-
-.callout[data-callout~=infobox] tr>td:nth-child(1) {
+    padding: 1px;
     font-weight: bold;
-}
-
-.callout[data-callout~=infobox] th,
-.callout[data-callout~=infobox] td {
-    border: none;
 }
 
 /* 인포박스 아이콘 스타일 */
 .callout[data-callout~=infobox] .callout-icon {
     display: none;
+}
+
+/* 인포박스 내 인라인 필드 스타일 */
+.dataview.inline-field-key,
+.dataview.inline-field-value {
+    font-family: var(--default-font);
+    font-weight: bold;
 }
