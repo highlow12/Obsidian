@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": "16ccf8e9202fc944",
+      "type": "text",
+      "text": "실행",
+      "shape": "oval",
+      "x": -320,
+      "y": -380,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "310b8ffe3eaa8f47",
+      "x": -320,
+      "y": -280,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "메인메뉴"
+    },
+    {
+      "id": "bbf463788564ee89",
+      "x": -320,
+      "y": -180,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "방 목록"
+    },
+    {
+      "id": "260de5628d9c38ca",
+      "x": -320,
+      "y": -80,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "준비"
+    },
+    {
+      "id": "ef7a9edba12eefee",
+      "x": -320,
+      "y": 40,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "스테이지 진입"
+    },
+    {
+      "id": "8d0a71cf74a17fcb",
+      "type": "text",
+      "text": "토벌 성공?",
+      "shape": "diamond",
+      "x": -120,
+      "y": 255,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}
