@@ -38,51 +38,6 @@
       "height": 60
     },
     {
-      "id": "c7234e47c9a8ba0c",
-      "type": "text",
-      "text": "마스터/bgm/sfx",
-      "x": 40,
-      "y": -40,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "bd0230557103ac75",
-      "type": "text",
-      "text": "설정",
-      "x": 190,
-      "y": -310,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "45802f91a8d24f79",
-      "type": "text",
-      "text": "화면 설정",
-      "x": 350,
-      "y": -140,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "48ff974230403e9f",
-      "type": "text",
-      "text": "음성 설정",
-      "x": 40,
-      "y": -140,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "ac6c6117493b4364",
-      "type": "text",
-      "text": "해상도/화면 종류",
-      "x": 350,
-      "y": -40,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "ef7a9edba12eefee",
       "type": "text",
       "text": "스테이지 진입",
@@ -125,6 +80,51 @@
       "text": "승리",
       "x": -320,
       "y": 260,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "48ff974230403e9f",
+      "type": "text",
+      "text": "음성 설정",
+      "x": 300,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c7234e47c9a8ba0c",
+      "type": "text",
+      "text": "마스터/bgm/sfx",
+      "x": 300,
+      "y": -40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "bd0230557103ac75",
+      "type": "text",
+      "text": "설정",
+      "x": 450,
+      "y": -310,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "45802f91a8d24f79",
+      "type": "text",
+      "text": "화면 설정",
+      "x": 610,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ac6c6117493b4364",
+      "type": "text",
+      "text": "해상도/화면 종류",
+      "x": 610,
+      "y": -40,
       "width": 260,
       "height": 60
     }
