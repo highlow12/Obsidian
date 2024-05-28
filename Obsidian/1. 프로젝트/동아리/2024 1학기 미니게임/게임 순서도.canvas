@@ -130,12 +130,12 @@
     },
     {
       "id": "57a71c25924ef632",
+      "type": "text",
+      "text": "",
       "x": 167,
       "y": 312,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": ""
+      "height": 60
     }
   ],
   "edges": [
