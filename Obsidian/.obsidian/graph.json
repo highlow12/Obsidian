@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:\"1. 프로젝트/학교/Data Structure\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9092739
+      }
+    },
+    {
       "query": "tag:#CoffeeReview",
       "color": {
         "a": 1,
@@ -74,6 +81,6 @@
   "repelStrength": 10.1321481481481,
   "linkStrength": 1,
   "linkDistance": 81,
-  "scale": 0.4556270643655271,
+  "scale": 0.298662790499223,
   "close": true
 }
