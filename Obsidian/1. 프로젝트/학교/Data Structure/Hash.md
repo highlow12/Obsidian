@@ -8,3 +8,17 @@
 ![[Hash Table]]
 # 해시함수
 ![[Hash Function]]
+# 해싱의 성능분석
+- 적재 밀도(loading density) 또는 적재 비율(loading factor)
+	- 저장되는 항목의 개수 n과 해시 테이블의 크기 M의 비율 
+$$
+\alpha =\frac{\text{저장된 항목의 개수}}{\text{해싱된 버켓의 개수}}= \frac{n}{M}
+$$
+- 선형 조사법에서의 비교 연산
+$$
+\text{실패한 탐색}=\frac{1}{2}\left(1 + \frac{1}{(1-a)^2}\right)
+\text{성공한 탐색}=\frac{1}{2}\left(1 + \frac{1}{(1-a)}\right)
+$$
+- 체이닝에서의 비교 연산
+$$
+$$
