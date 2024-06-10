@@ -6,3 +6,5 @@
 ![[해시.png]]
 # 해시 테이블
 ![[Hash Table]]
+# 해시함수
+![[Hash Function]]
