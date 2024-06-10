@@ -1,3 +1,9 @@
+---
+subject: DataStructure
+tags:
+  - Algorythem
+---
+
 # 해시 함수
 ## 좋은 해시 함수의 조건
 - ==충돌이 적어야 함==

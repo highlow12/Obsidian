@@ -1,3 +1,9 @@
+---
+subject: DataStructure
+tags:
+  - Algorythem
+---
+
 - 해싱(hashing) : 키 값에 대한 산술적 연산에 의해 테이블의 주소를 계산하여 항목에 접근
 - 해시 테이블(hash table): 키 값의 연산에 의해 직접 접근이 가능한 구조 
 - 해시 함수(hash function)
@@ -17,8 +23,14 @@ $$
 - 선형 조사법에서의 비교 연산
 $$
 \text{실패한 탐색}=\frac{1}{2}\left(1 + \frac{1}{(1-a)^2}\right)
+$$
+$$
 \text{성공한 탐색}=\frac{1}{2}\left(1 + \frac{1}{(1-a)}\right)
 $$
 - 체이닝에서의 비교 연산
 $$
+\text{실패한 탐색}=\alpha
+$$
+$$
+\text{성공한 탐색}=1+\frac{\alpha}{2}
 $$
