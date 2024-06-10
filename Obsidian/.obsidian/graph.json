@@ -5,7 +5,7 @@
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"1. 프로젝트/학교/Data Structure\"  ",
@@ -77,10 +77,10 @@
   "nodeSizeMultiplier": 1.09781818181818,
   "lineSizeMultiplier": 2.63381818181818,
   "collapse-forces": false,
-  "centerStrength": 0.665896296296296,
-  "repelStrength": 10.1321481481481,
+  "centerStrength": 0.59762962962963,
+  "repelStrength": 9.60118518518518,
   "linkStrength": 1,
-  "linkDistance": 81,
+  "linkDistance": 30,
   "scale": 0.298662790499223,
   "close": true
 }
