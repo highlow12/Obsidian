@@ -1,0 +1,15 @@
+/* 한글 단어의 첫 번째 글자를 굵은 폰트로 표시 */
+body {
+    font-family: 'NotoSansKR', sans-serif;
+    /* 한글 폰트 사용 */
+}
+
+body :not(code)>* {
+    font-variation-settings: "wght" 400;
+    /* 기본 폰트 두께 */
+}
+
+body :not(code)>*::first-letter {
+    font-variation-settings: "wght" 700;
+    /* 첫 번째 글자만 굵게 */
+}
