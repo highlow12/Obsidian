@@ -1,7 +1,7 @@
 {
   "spellcheck": false,
   "newFileLocation": "current",
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
@@ -18,5 +18,6 @@
   "readableLineLength": true,
   "showLineNumber": false,
   "vimMode": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "rightToLeft": false
 }
