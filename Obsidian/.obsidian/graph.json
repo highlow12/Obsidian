@@ -5,10 +5,10 @@
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"1. 프로젝트/학교/Data Structure\"  ",
+      "query": "tag:#DataStructure  ",
       "color": {
         "a": 1,
         "rgb": 9092739
