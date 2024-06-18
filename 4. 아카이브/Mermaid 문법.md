@@ -50,11 +50,17 @@ graph LR
 ```
 # 사용예
 ```mermaid
-graph TD
+graph LR
 	A[일어난다.] --> B{배가 고픈가?}
-	B -- Yes --> C[밥을 먹는다.] --> D[잠을 잔다]
+	subgraph id ["sub"]
+	
+	direction TB
+		B -- Yes --> C[밥을 먹는다.] --> D[잠을 잔다]
+	end
+	
 	B -- No --> D
+	
 	D --> A
 ```
 ---
-[머메이드 홈페이](https://mermaid.js.org/#/)
+[머메이드 홈페이지](https://mermaid.js.org/#/)
