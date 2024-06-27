@@ -2,6 +2,6 @@
 그래서 pkm이 다양한 정보를 수집, 관리, 정제 하는데 있어 유용한 방법이라고 생각된다.
 - - -
 ## pkm의 방법
-```dataviwe
-LIST FORM 
+```dataview
+LIST FROM "3. 리소스/개인 지식 관리(PKM)" and #PKMmethod
 ```
