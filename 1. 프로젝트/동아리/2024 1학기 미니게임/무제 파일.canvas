@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "b9201633422469ff",
+      "x": -420,
+      "y": -360,
+      "width": 400,
+      "height": 400,
+      "type": "text",
+      "text": "**SessionName**: 랜덤\n**CustomLobbyName**: 사용자 지정\n**IsOpen**: [게임 세션 정보 가져오기 및 업데이트](https://doc.photonengine.com/ko-kr/fusion/current/manual/connection-and-matchmaking/matchmaking#:~:text=%EC%A0%95%EC%9D%98%ED%95%A9%EB%8B%88%EB%8B%A4.%20%EC%9E%90%EC%84%B8%ED%95%9C%20%EB%82%B4%EC%9A%A9%EC%9D%80-,%EA%B2%8C%EC%9E%84%20%EC%84%B8%EC%85%98%20%EC%A0%95%EB%B3%B4%20%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0%20%EB%B0%8F%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC,-%EC%B0%B8%EC%A1%B0%ED%95%98%EC%84%B8%EC%9A%94%20.)\n**IsVisible**: true\n"
+    },
+    {
+      "id": "6b824f97ddf48aca",
+      "type": "text",
+      "text": "세션 생성",
+      "shape": "oval",
+      "x": -350,
+      "y": -460,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "3e42ea961568d1de",
+      "fromNode": "6b824f97ddf48aca",
+      "fromSide": "bottom",
+      "toNode": "b9201633422469ff",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
