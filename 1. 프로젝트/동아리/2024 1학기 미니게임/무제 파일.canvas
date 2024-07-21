@@ -12,21 +12,21 @@
     },
     {
       "id": "b9201633422469ff",
+      "type": "text",
+      "text": "#### 인수\n**CustomLobbyName**: 사용자 지정",
       "x": -365,
       "y": -360,
       "width": 290,
-      "height": 100,
-      "type": "text",
-      "text": "#### 인수\n**CustomLobbyName**: 사용자 지정"
+      "height": 100
     },
     {
       "id": "bafa4457d7d5d6b8",
+      "type": "text",
+      "text": "ㄴㄹㄹㅇㄴ",
       "x": -350,
       "y": -113,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "ㄴㄹㄹㅇㄴ"
+      "height": 60
     },
     {
       "id": "696dbe0aab576fc3",
