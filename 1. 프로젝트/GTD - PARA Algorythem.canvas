@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "c9b292a7c3b94012",
+      "x": 360,
+      "y": -160,
+      "width": 580,
+      "height": 200,
+      "type": "group",
+      "label": "할일 목록 분류"
+    },
+    {
       "id": "7ca17f256394b93c",
       "type": "text",
       "text": "행동인가",
@@ -31,7 +40,7 @@
     {
       "id": "1dcceb30c377c1f2",
       "x": -246,
-      "y": -120,
+      "y": -100,
       "width": 260,
       "height": 60,
       "type": "text",
@@ -40,12 +49,85 @@
     {
       "id": "83fbcfcad0f82645",
       "type": "text",
-      "text": "두개 이상의 행동이 들어가야 하는가",
+      "text": "두개 이상의 \n행동이 들어가야 하는가",
       "shape": "diamond",
-      "x": -243,
-      "y": -35,
+      "x": -246,
+      "y": 0,
+      "width": 260,
+      "height": 115
+    },
+    {
+      "id": "5ef8541faff5ba29",
+      "type": "text",
+      "text": "2분내에 가능한가",
+      "shape": "diamond",
+      "x": -246,
+      "y": 200,
       "width": 260,
       "height": 60
+    },
+    {
+      "id": "2b313cb29584a7b0",
+      "x": 80,
+      "y": 200,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "할일목록 추가 / 위임"
+    },
+    {
+      "id": "79468bb04c2a7786",
+      "x": -580,
+      "y": 200,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "바로 실행"
+    },
+    {
+      "id": "7d2eba0a39925fd7",
+      "type": "text",
+      "text": "A: 기한이 정해진 일",
+      "x": 380,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "93803d918100af13",
+      "type": "text",
+      "text": "B: 특정 시간/ 장소로 묶을수 있는 일",
+      "x": 660,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "812f6fa2f66a26bc",
+      "type": "text",
+      "text": "D: 어려운 일",
+      "x": 660,
+      "y": -40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "156e0edfd3d9cbde",
+      "type": "text",
+      "text": "C: 쉬운일",
+      "x": 380,
+      "y": -40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6cdff8ce5ac9b03c",
+      "x": 380,
+      "y": 320,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "추적 / 관리"
     }
   ],
   "edges": [
@@ -69,7 +151,63 @@
       "fromNode": "7ca17f256394b93c",
       "fromSide": "bottom",
       "toNode": "1dcceb30c377c1f2",
+      "toSide": "top",
+      "label": "Y"
+    },
+    {
+      "id": "24870c6104ac3def",
+      "fromNode": "1dcceb30c377c1f2",
+      "fromSide": "bottom",
+      "toNode": "83fbcfcad0f82645",
       "toSide": "top"
+    },
+    {
+      "id": "553d55b3fd2daa89",
+      "fromNode": "83fbcfcad0f82645",
+      "fromSide": "right",
+      "toNode": "43961ecd87a22196",
+      "toSide": "bottom",
+      "label": "Y: PARA의 프로젝트로"
+    },
+    {
+      "id": "58463f7c54ef1409",
+      "fromNode": "83fbcfcad0f82645",
+      "fromSide": "bottom",
+      "toNode": "5ef8541faff5ba29",
+      "toSide": "top",
+      "label": "N"
+    },
+    {
+      "id": "5dfbdb363320f90d",
+      "fromNode": "5ef8541faff5ba29",
+      "fromSide": "right",
+      "toNode": "2b313cb29584a7b0",
+      "toSide": "left",
+      "label": "N"
+    },
+    {
+      "id": "71bc4b99267cc785",
+      "fromNode": "5ef8541faff5ba29",
+      "fromSide": "left",
+      "toNode": "79468bb04c2a7786",
+      "toSide": "right",
+      "label": "Y"
+    },
+    {
+      "id": "774dbf9557765511",
+      "fromNode": "2b313cb29584a7b0",
+      "fromSide": "top",
+      "toNode": "c9b292a7c3b94012",
+      "toSide": "left",
+      "label": "목록에 추가 시"
+    },
+    {
+      "id": "8b175e8636fc728d",
+      "fromNode": "2b313cb29584a7b0",
+      "fromSide": "bottom",
+      "toNode": "6cdff8ce5ac9b03c",
+      "toSide": "left",
+      "label": "위임 시"
     }
   ],
   "metadata": {}
