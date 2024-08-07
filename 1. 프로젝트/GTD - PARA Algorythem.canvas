@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "7ca17f256394b93c",
+      "type": "text",
+      "text": "행동인가",
+      "shape": "diamond",
+      "x": -246,
+      "y": -238,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "43961ecd87a22196",
+      "x": 80,
+      "y": -238,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "PARA로 감"
+    },
+    {
+      "id": "161eb5f420a45541",
+      "x": -246,
+      "y": -340,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "생각 모으기"
+    },
+    {
+      "id": "1dcceb30c377c1f2",
+      "x": -246,
+      "y": -120,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "할일"
+    },
+    {
+      "id": "83fbcfcad0f82645",
+      "type": "text",
+      "text": "두개 이상의 행동이 들어가야 하는가",
+      "shape": "diamond",
+      "x": -243,
+      "y": -35,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "0b268c2c45b4b79f",
+      "fromNode": "7ca17f256394b93c",
+      "fromSide": "right",
+      "toNode": "43961ecd87a22196",
+      "toSide": "left",
+      "label": "N"
+    },
+    {
+      "id": "3293206e7062ade0",
+      "fromNode": "161eb5f420a45541",
+      "fromSide": "bottom",
+      "toNode": "7ca17f256394b93c",
+      "toSide": "top"
+    },
+    {
+      "id": "00aea22a72bef7f9",
+      "fromNode": "7ca17f256394b93c",
+      "fromSide": "bottom",
+      "toNode": "1dcceb30c377c1f2",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
