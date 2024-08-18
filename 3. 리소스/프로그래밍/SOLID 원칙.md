@@ -1,3 +1,8 @@
+---
+tags:
+  - 수정중
+---
+
 # S: 단일 책임 원칙
 Single responsibility principle
 > 한 클래스는 하나의 책임만 가져야 한다
@@ -22,24 +27,7 @@ Open/closed principle
 Liskov substitution principle
 > 프로그램의 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다
 
-Q(x)를 자료형 
-T
-T(x)의 객체 
-x
-{\displaystyle x}에 대해 증명할 수 있는 속성이라 하자. 그렇다면 
-S
-S가 
-T
-T(x)의 하위형이라면 
-q
-(
-y
-)
-Q(Y)는 자료형 
-S
-S의 객체 
-y
-H에 대해 증명할 수 있어야 한다.
+## Q(x)를 자료형 T의 객체 x에 대해 증명할 수 있는 속성이라 하자. 그렇다면 S가 T의 하위형이라면 Q(Y)는 자료형 S의 객체 y에 대해 증명할 수 있어야 한다.
 # I: 인터페이스 분리 원칙
 Interface segregation principle
 > 특정 클라이언트를 위한 전용 인터페이스 여러개가 범용 인터페이스 하나보다 낫다

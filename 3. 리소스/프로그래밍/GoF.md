@@ -2,6 +2,7 @@
 tags:
   - programming
   - DesignPattern
+  - 수정중
 ---
 
 1995년 GoF(Gang of Four)라고 불리는 Erich Gamma, Richard Helm, Ralph Johnson, John Vissides 가 처음으로 디자인 패턴을 구체화하였다. GoF의 디자인 패턴은 소프트웨어 공학에서 가장 많이 사용되는 디자인 패턴이다. 목적에 따라 분류할 시 생성 패턴 5개, 구조 패턴 7개, 행위 패턴 11개, 총 23개의 패턴으로 구성된다.

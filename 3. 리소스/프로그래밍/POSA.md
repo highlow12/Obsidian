@@ -2,6 +2,7 @@
 tags:
   - programming
   - DesignPattern
+  - 수정중
 ---
 POSA는 "Pattern-Oriented Software Architecture"의 약자로, 패턴 중심의 소프트웨어 아키텍처를 다루는 개념입니다. 이 접근 방식은 소프트웨어 설계에서 발생할 수 있는 다양한 문제를 해결하기 위해 디자인 패턴을 활용하는 방법론입니다. POSA는 소프트웨어 아키텍처를 체계적으로 이해하고 설계하는 데 도움을 줍니다.
 ### POSA의 주요 요소
