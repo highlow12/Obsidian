@@ -2,7 +2,6 @@
 tags:
   - book/programing
   - book/author/Robert-Martin
-  - 수정중
 ---
 # 어떤 책인가
 이 책이 '클린 코드' 같은 코드를 잘 짜는 방법에 관한 책인줄 알았는데
