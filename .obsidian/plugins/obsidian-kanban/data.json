@@ -1,3 +1,4 @@
 {
-  "show-checkboxes": false
+  "show-checkboxes": true,
+  "metadata-keys": []
 }
