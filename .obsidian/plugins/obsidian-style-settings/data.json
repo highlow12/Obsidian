@@ -1,5 +1,6 @@
 {
   "minimal-advanced@@cursor": "default",
   "minimal-style@@dataview-inline-lists": false,
-  "minimal-style@@h1-color@@dark": "#316FEA"
+  "minimal-style@@h1-color@@dark": "#316FEA",
+  "minimal-style@@h1-l": true
 }
