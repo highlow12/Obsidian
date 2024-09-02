@@ -21,5 +21,6 @@
   "alwaysUpdateLinks": true,
   "rightToLeft": false,
   "showIndentGuide": false,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "showRibbon": true
 }
