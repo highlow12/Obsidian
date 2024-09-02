@@ -57,10 +57,11 @@ graph LR
 	direction TB
 		B -- Yes --> C[밥을 먹는다.] --> D[잠을 잔다]
 	end
-	
+
 	B -- No --> D
 	
 	D --> A
+	
 ```
 ---
 [머메이드 홈페이지](https://mermaid.js.org/#/)
