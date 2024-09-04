@@ -98,9 +98,9 @@
         "sectionId": null,
         "parentId": null,
         "order": 5,
-        "content": "test",
+        "content": "test    ✅ 2024-09-04",
         "description": "[1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md](obsidian://open?vault=Obsidian&file=1.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2024-1%ED%95%99%EA%B8%B0-%EB%8F%99%EC%95%84%EB%A6%AC/2024%201%ED%95%99%EA%B8%B0%20%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/TODOIST.md)",
-        "isCompleted": false,
+        "isCompleted": true,
         "labels": [
           "todoist"
         ],
@@ -109,12 +109,12 @@
         "creatorId": "50559006",
         "createdAt": "2024-09-04T07:24:03.529443Z",
         "due": {
-          "date": "2024-09-03",
+          "date": "2024-09-04",
           "timezone": "Asia/Seoul",
-          "string": "2024-09-04 08:00",
-          "lang": "en",
+          "string": "08시00분 9월5일",
+          "lang": "ko",
           "isRecurring": false,
-          "datetime": "2024-09-03T23:00:00Z"
+          "datetime": "2024-09-04T23:00:00Z"
         },
         "url": "https://todoist.com/app/task/8359375893",
         "duration": null,
@@ -232,6 +232,27 @@
         },
         "extra_data_id": 25221424313,
         "id": 25135107217,
+        "initiator_id": null,
+        "object_id": "8359375893",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6W6mX7RC249JqW9p",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-04T07:31:22.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/6657",
+          "content": "test",
+          "due_date": "2024-09-04T23:00:00.000000Z",
+          "last_due_date": "2024-09-03T23:00:00.000000Z",
+          "note_count": 0
+        },
+        "extra_data_id": 25221494671,
+        "id": 25135177571,
         "initiator_id": null,
         "object_id": "8359375893",
         "object_type": "item",

@@ -1,6 +1,6 @@
 {
   "fadeToggle": true,
-  "autoRefreshToggle": true,
+  "autoRefreshToggle": false,
   "autoRefreshInterval": 60,
   "renderDescription": true,
   "renderDate": true,
