@@ -34,94 +34,7 @@
         "viewStyle": "list"
       }
     ],
-    "tasks": [
-      {
-        "id": "8359375893",
-        "assignerId": null,
-        "assigneeId": null,
-        "projectId": "2339176662",
-        "sectionId": null,
-        "parentId": null,
-        "order": 5,
-        "content": "test    ✅ 2024-09-04",
-        "description": "[TODOIST.md](obsidian://open?vault=Obsidian&file=TODOIST.md)",
-        "isCompleted": true,
-        "labels": [
-          "todoist"
-        ],
-        "priority": 1,
-        "commentCount": 0,
-        "creatorId": "50559006",
-        "createdAt": "2024-09-04T07:24:03.529443Z",
-        "due": {
-          "date": "2024-09-04",
-          "timezone": "Asia/Seoul",
-          "string": "08시00분 9월5일",
-          "lang": "ko",
-          "isRecurring": false,
-          "datetime": "2024-09-04T23:00:00Z"
-        },
-        "url": "https://todoist.com/app/task/8359375893",
-        "duration": null,
-        "deadline": null,
-        "path": "TODOIST.md"
-      },
-      {
-        "id": "8359357480",
-        "assignerId": null,
-        "assigneeId": null,
-        "projectId": "2339176662",
-        "sectionId": null,
-        "parentId": null,
-        "order": 6,
-        "content": "todoist day test",
-        "description": "[TODOIST.md](obsidian://open?vault=Obsidian&file=TODOIST.md)",
-        "isCompleted": true,
-        "labels": [
-          "todoist"
-        ],
-        "priority": 1,
-        "commentCount": 0,
-        "creatorId": "50559006",
-        "createdAt": "2024-09-04T07:16:56.300563Z",
-        "due": {
-          "date": "2024-09-04",
-          "timezone": "Asia/Seoul",
-          "string": "2024-09-05 08:00",
-          "lang": "en",
-          "isRecurring": false,
-          "datetime": "2024-09-04T23:00:00Z"
-        },
-        "url": "https://todoist.com/app/task/8359357480",
-        "duration": null,
-        "deadline": null,
-        "path": "TODOIST.md"
-      },
-      {
-        "id": "8359344044",
-        "assignerId": null,
-        "assigneeId": null,
-        "projectId": "2339176662",
-        "sectionId": null,
-        "parentId": null,
-        "order": 5,
-        "content": "ToDoist test",
-        "description": "[TODOIST.md](obsidian://open?vault=Obsidian&file=TODOIST.md)",
-        "isCompleted": true,
-        "labels": [
-          "todoist"
-        ],
-        "priority": 1,
-        "commentCount": 0,
-        "creatorId": "50559006",
-        "createdAt": "2024-09-04T07:11:17.531957Z",
-        "due": null,
-        "url": "https://todoist.com/app/task/8359344044",
-        "duration": null,
-        "deadline": null,
-        "path": "TODOIST.md"
-      }
-    ],
+    "tasks": [],
     "events": [
       {
         "event_date": "2024-09-04T06:47:37.000000Z",
@@ -368,12 +281,8 @@
   },
   "fileMetadata": {
     "TODOIST.md": {
-      "todoistTasks": [
-        "8359344044",
-        "8359357480",
-        "8359375893"
-      ],
-      "todoistCount": 3
+      "todoistTasks": [],
+      "todoistCount": 0
     }
   },
   "enableFullVaultSync": false,
