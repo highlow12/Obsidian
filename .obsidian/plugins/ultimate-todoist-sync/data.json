@@ -45,7 +45,7 @@
         "order": 5,
         "content": "ToDoist test",
         "description": "[1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md](obsidian://open?vault=Obsidian&file=1.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2024-1%ED%95%99%EA%B8%B0-%EB%8F%99%EC%95%84%EB%A6%AC/2024%201%ED%95%99%EA%B8%B0%20%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/TODOIST.md)",
-        "isCompleted": false,
+        "isCompleted": true,
         "labels": [
           "todoist"
         ],
@@ -55,6 +55,68 @@
         "createdAt": "2024-09-04T07:11:17.531957Z",
         "due": null,
         "url": "https://todoist.com/app/task/8359344044",
+        "duration": null,
+        "deadline": null,
+        "path": "1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md"
+      },
+      {
+        "id": "8359357480",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2339176662",
+        "sectionId": null,
+        "parentId": null,
+        "order": 6,
+        "content": "todoist day test",
+        "description": "[1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md](obsidian://open?vault=Obsidian&file=1.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2024-1%ED%95%99%EA%B8%B0-%EB%8F%99%EC%95%84%EB%A6%AC/2024%201%ED%95%99%EA%B8%B0%20%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/TODOIST.md)",
+        "isCompleted": true,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "50559006",
+        "createdAt": "2024-09-04T07:16:56.300563Z",
+        "due": {
+          "date": "2024-09-04",
+          "timezone": "Asia/Seoul",
+          "string": "2024-09-05 08:00",
+          "lang": "en",
+          "isRecurring": false,
+          "datetime": "2024-09-04T23:00:00Z"
+        },
+        "url": "https://todoist.com/app/task/8359357480",
+        "duration": null,
+        "deadline": null,
+        "path": "1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md"
+      },
+      {
+        "id": "8359375893",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2339176662",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "test",
+        "description": "[1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md](obsidian://open?vault=Obsidian&file=1.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2024-1%ED%95%99%EA%B8%B0-%EB%8F%99%EC%95%84%EB%A6%AC/2024%201%ED%95%99%EA%B8%B0%20%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/TODOIST.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "50559006",
+        "createdAt": "2024-09-04T07:24:03.529443Z",
+        "due": {
+          "date": "2024-09-03",
+          "timezone": "Asia/Seoul",
+          "string": "2024-09-04 08:00",
+          "lang": "en",
+          "isRecurring": false,
+          "datetime": "2024-09-03T23:00:00Z"
+        },
+        "url": "https://todoist.com/app/task/8359375893",
         "duration": null,
         "deadline": null,
         "path": "1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md"
@@ -98,15 +160,97 @@
         "v2_object_id": "6W6mM4h9Cx9fqF4G",
         "v2_parent_item_id": null,
         "v2_parent_project_id": null
+      },
+      {
+        "event_date": "2024-09-04T07:18:41.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/6657",
+          "content": "ToDoist test",
+          "note_count": 0
+        },
+        "extra_data_id": 25221371910,
+        "id": 25135054819,
+        "initiator_id": null,
+        "object_id": "8359344044",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6W6mV3QfRjhf68CG",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-04T07:18:39.000000Z",
+        "event_type": "completed",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/6657",
+          "content": "todoist day test",
+          "note_count": 0
+        },
+        "extra_data_id": 25221371604,
+        "id": 25135054508,
+        "initiator_id": null,
+        "object_id": "8359357480",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6W6mVxXVj3j4GXrp",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-04T07:19:12.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "todoist day test",
+          "due_date": "2024-09-04T23:00:00.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 25221376635,
+        "id": 25135059539,
+        "initiator_id": null,
+        "object_id": "8359357480",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6W6mVxXVj3j4GXrp",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-04T07:24:11.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "test",
+          "due_date": "2024-09-03T23:00:00.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 25221424313,
+        "id": 25135107217,
+        "initiator_id": null,
+        "object_id": "8359375893",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6W6mX7RC249JqW9p",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
       }
     ]
   },
   "fileMetadata": {
     "1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md": {
       "todoistTasks": [
-        "8359344044"
+        "8359344044",
+        "8359357480",
+        "8359375893"
       ],
-      "todoistCount": 1
+      "todoistCount": 3
     }
   },
   "enableFullVaultSync": false,
