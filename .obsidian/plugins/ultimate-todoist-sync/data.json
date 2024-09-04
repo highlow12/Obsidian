@@ -1,0 +1,116 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 30,
+  "todoistTasksData": {
+    "projects": [
+      {
+        "id": "2339176662",
+        "parentId": null,
+        "order": 0,
+        "color": "charcoal",
+        "name": "Inbox",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": true,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2339176662",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2339176670",
+        "parentId": null,
+        "order": 1,
+        "color": "charcoal",
+        "name": "자택 🏡",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2339176670",
+        "viewStyle": "list"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "8359344044",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2339176662",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "ToDoist test",
+        "description": "[1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md](obsidian://open?vault=Obsidian&file=1.%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/2024-1%ED%95%99%EA%B8%B0-%EB%8F%99%EC%95%84%EB%A6%AC/2024%201%ED%95%99%EA%B8%B0%20%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/TODOIST.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "50559006",
+        "createdAt": "2024-09-04T07:11:17.531957Z",
+        "due": null,
+        "url": "https://todoist.com/app/task/8359344044",
+        "duration": null,
+        "deadline": null,
+        "path": "1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md"
+      }
+    ],
+    "events": [
+      {
+        "event_date": "2024-09-04T06:47:37.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Todoist/24.9.0",
+          "name": "자택 🏡",
+          "note_count": 0
+        },
+        "extra_data_id": 25221066549,
+        "id": 25134749455,
+        "initiator_id": null,
+        "object_id": "2339176670",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null,
+        "v2_object_id": "6W6mM5H24vgFWfRw",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": null
+      },
+      {
+        "event_date": "2024-09-04T06:47:31.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Todoist/24.9.0",
+          "name": "Inbox",
+          "note_count": 0
+        },
+        "extra_data_id": 25221065536,
+        "id": 25134748441,
+        "initiator_id": null,
+        "object_id": "2339176662",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null,
+        "v2_object_id": "6W6mM4h9Cx9fqF4G",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": null
+      }
+    ]
+  },
+  "fileMetadata": {
+    "1. 프로젝트/2024-1학기-동아리/2024 1학기 미니게임/TODOIST.md": {
+      "todoistTasks": [
+        "8359344044"
+      ],
+      "todoistCount": 1
+    }
+  },
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "todoistAPIToken": "42ad3caa89516695cdbb9505ec8ef513bbb5974b"
+}
