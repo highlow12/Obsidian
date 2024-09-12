@@ -13,23 +13,5 @@ tags:
 
 ![[MVC]]
 
-# MVP (Model View Presenter)
->[!infobox] **모델-뷰-프리젠터**  
->![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/220px-Model_View_Presenter_GUI_Design_Pattern.png)
->##### Stats  
->- #DesignPattern
->- #ArchitecturePattern
->- #UI 
-
-
-
-
-ㅁㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇㄻㄴㅇ
-# MVVM (Model View Viewmodel)
->[!infobox] **모델-뷰-뷰모델**  
->![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MVVMPattern.png/500px-MVVMPattern.png)
->##### Stats  
->- #DesignPattern
->- #ArchitecturePattern
->- #UI 
-
+![[MVP]]
+![[MVVM]]
