@@ -3,6 +3,9 @@ tags:
   - 수정중
 ---
 # S: 단일 책임 원칙
+
+^a072e5
+
 Single responsibility principle
 > 한 클래스는 하나의 책임만 가져야 한다
 
