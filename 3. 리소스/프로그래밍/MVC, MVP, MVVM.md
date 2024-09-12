@@ -23,12 +23,7 @@ tags:
 	- 입력을 처리하고 결과를 모델로 다시 전송
 	- 그 자체로 게임 **데이터를 포함하지 않음**
 ```mermaid
-graph TD
-	m([Model]) --->|state-chage events| v([View])
-	v --->|sees| u([User])
-	u -->|uses| c([Controller])
-	c --->|manipulates| m
-	
-	
+flowchart
+	m[model] & 
 	
 ```
