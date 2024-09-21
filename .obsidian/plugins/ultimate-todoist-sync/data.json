@@ -34,7 +34,70 @@
         "viewStyle": "list"
       }
     ],
-    "tasks": [],
+    "tasks": [
+      {
+        "id": "8415182131",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2339176662",
+        "sectionId": null,
+        "parentId": null,
+        "order": 4,
+        "content": "비주얼노벨 UI 적용하기",
+        "description": "[0. MoCs/Homepages.md](obsidian://open?vault=Obsidian&file=0.%20MoCs/Homepages.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "50559006",
+        "createdAt": "2024-09-21T10:24:40.365642Z",
+        "due": {
+          "date": "2024-09-22",
+          "timezone": "Asia/Seoul",
+          "string": "2024-09-23 08:00",
+          "lang": "en",
+          "isRecurring": false,
+          "datetime": "2024-09-22T23:00:00Z"
+        },
+        "url": "https://todoist.com/app/task/8415182131",
+        "duration": null,
+        "deadline": null,
+        "path": "0. MoCs/Homepages.md"
+      },
+      {
+        "id": "8415185166",
+        "assignerId": null,
+        "assigneeId": null,
+        "projectId": "2339176662",
+        "sectionId": null,
+        "parentId": null,
+        "order": 5,
+        "content": "비주얼노벨 엔딩 스크립트 작업하기",
+        "description": "[0. MoCs/Homepages.md](obsidian://open?vault=Obsidian&file=0.%20MoCs/Homepages.md)",
+        "isCompleted": false,
+        "labels": [
+          "todoist"
+        ],
+        "priority": 1,
+        "commentCount": 0,
+        "creatorId": "50559006",
+        "createdAt": "2024-09-21T10:26:32.153560Z",
+        "due": {
+          "date": "2024-09-21",
+          "timezone": "Asia/Seoul",
+          "string": "2024-09-22 08:00",
+          "lang": "en",
+          "isRecurring": false,
+          "datetime": "2024-09-21T23:00:00Z"
+        },
+        "url": "https://todoist.com/app/task/8415185166",
+        "duration": null,
+        "deadline": null,
+        "path": "0. MoCs/Homepages.md"
+      }
+    ],
     "events": [
       {
         "event_date": "2024-09-04T06:47:37.000000Z",
@@ -276,6 +339,69 @@
         "v2_object_id": "6W6mVxXVj3j4GXrp",
         "v2_parent_item_id": null,
         "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-21T10:25:38.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0; Todoist/6792",
+          "content": "비주얼노벨 UI 적용하기",
+          "due_date": "2024-09-23T14:59:59.000000Z",
+          "last_due_date": "2024-09-22T23:00:00.000000Z",
+          "note_count": 0
+        },
+        "extra_data_id": 25415544670,
+        "id": 25329226020,
+        "initiator_id": null,
+        "object_id": "8415182131",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6WCmvxcfr7wpw3GG",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-21T10:24:52.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "비주얼노벨 UI 적용하기",
+          "due_date": "2024-09-22T23:00:00.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 25415540907,
+        "id": 25329222260,
+        "initiator_id": null,
+        "object_id": "8415182131",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6WCmvxcfr7wpw3GG",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-21T10:25:54.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "비주얼노벨 UI 적용하기",
+          "due_date": "2024-09-22T23:00:00.000000Z",
+          "last_due_date": "2024-09-23T14:59:59.000000Z",
+          "note_count": 0
+        },
+        "extra_data_id": 25415546015,
+        "id": 25329227366,
+        "initiator_id": null,
+        "object_id": "8415182131",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6WCmvxcfr7wpw3GG",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
       }
     ]
   },
@@ -283,6 +409,13 @@
     "TODOIST.md": {
       "todoistTasks": [],
       "todoistCount": 0
+    },
+    "0. MoCs/Homepages.md": {
+      "todoistTasks": [
+        "8415182131",
+        "8415185166"
+      ],
+      "todoistCount": 2
     }
   },
   "enableFullVaultSync": false,
