@@ -2,7 +2,7 @@
 tags:
   - DataStructure
   - DataStructure/Linear
-  - Stack
+  - DataStructure/Stack
 ---
 # 스택의 특징
 ***[[LIFO|LIFO(Last in First out)]]***: 후입선출
