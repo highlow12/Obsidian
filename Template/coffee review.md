@@ -1,6 +1,6 @@
 ---
 tags:
-  - CoffeeReview
+  - Coffee/CoffeeReview
 date: 
 rate: 
 major_change:
