@@ -2,7 +2,7 @@
 subject: DataStructure
 tags:
   - DataStructure
-  - Non-Linear
+  - DataStructure/Non-Linear
 ---
 # 사전
 딕셔너리(Dictionary)는 키-값 쌍(key-value pair)을 저장하는 자료 구조입니다. 키는 고유한 식별자로 사용되며, 값은 키에 대응되는 데이터입니다. 딕셔너리는 빠른 검색, 삽입, 삭제 등의 연산을 제공하며, 이를 통해 효율적인 데이터 관리가 가능합니다.

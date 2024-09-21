@@ -2,7 +2,7 @@
 subject: DataStructure
 tags:
   - Algorythem
-  - Sort
+  - Algorythem/Sort
 ---
 셸 정렬(Shell Sort)은 [[Selection Sort|삽입 정렬]]을 개선한 정렬 [[알고리즘]]입니다. 셸 정렬은 삽입 정렬의 단점을 보완하여 더 빠른 정렬 속도를 제공합니다.
 

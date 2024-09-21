@@ -1,7 +1,7 @@
 ---
 tags:
   - DataStructure
-  - Table
+  - DataStructure/Table
 subject: DataStructure
 ---
 # 구조

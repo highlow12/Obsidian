@@ -1,7 +1,7 @@
 ---
 tags:
   - Algorythem
-  - Sort
+  - Algorythem/Sort
 subject: DataStructure
 ---
 퀵 정렬의 주요 특징은 다음과 같습니다:

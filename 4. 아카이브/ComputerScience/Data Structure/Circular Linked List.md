@@ -1,8 +1,8 @@
 ---
 tags:
-  - List
+  - DataStructure/List
   - DataStructure
-  - Linear
+  - DataStructure/Linear
 ---
 # 특징
 1. 마지막 노드가 첫번째 노드를 가리키는 리스트

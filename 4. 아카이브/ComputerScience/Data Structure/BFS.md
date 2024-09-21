@@ -1,7 +1,7 @@
 ---
 tags:
   - Algorythem
-  - Traversal
+  - Algorythem/Traversal
 ---
 # 너비 우선 탐색
 - 시작 정점으로부터 가까운 정점을 먼저 방문하고 멀리 떨어져 있는 정점을 나중에 방문하는 순회 방법

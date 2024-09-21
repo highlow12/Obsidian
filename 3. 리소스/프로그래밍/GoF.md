@@ -1,7 +1,7 @@
 ---
 tags:
   - programming
-  - DesignPattern
+  - programming/DesignPattern
   - 수정중
 ---
 

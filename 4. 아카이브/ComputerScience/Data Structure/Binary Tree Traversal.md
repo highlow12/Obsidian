@@ -1,9 +1,9 @@
 ---
 tags:
-  - "#Tree"
+  - "#DataStructure/Tree"
   - DataStructure
-  - Non-Linear
-  - Traversal
+  - DataStructure/Non-Linear
+  - Algorythem/Traversal
   - Algorythem
 ---
 ***순회(Traversal)***: 트리의 노드들을 쳬계적으로 방문 하는 것

@@ -1,7 +1,7 @@
 ---
 tags:
   - Algorythem
-  - Sort
+  - Algorythem/Sort
 subject: DataStructure
 ---
 기수 정렬(Radix Sort)은 정수나 문자열과 같은 키 값을 가진 데이터를 정렬하는 [[알고리즘]]입니다. 기수 정렬은 키 값의 각 자리수를 기준으로 정렬을 수행하여 전체 데이터를 정렬하는 방식입니다. (비교하지 않음)

@@ -1,8 +1,8 @@
 ---
 tags:
-  - List
+  - DataStructure/List
   - DataStructure
-  - Linear
+  - DataStructure/Linear
 ---
 # 특징
 1. 하나의 노드가 선행 노드와 후속 노드에 대한 두 개의 링크를 가지는 리스트

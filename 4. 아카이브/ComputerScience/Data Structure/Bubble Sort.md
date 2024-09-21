@@ -2,7 +2,7 @@
 subject: DataStructure
 tags:
   - Algorythem
-  - Sort
+  - Algorythem/Sort
 ---
 버블 정렬(Bubble Sort)은 정렬 [[알고리즘]] 중 하나로, 인접한 두 요소를 비교하여 크기가 큰 요소를 뒤로 보내는 방식으로 정렬하는 알고리즘입니다.
 

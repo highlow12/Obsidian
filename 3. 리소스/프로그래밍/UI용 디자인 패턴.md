@@ -1,8 +1,8 @@
 ---
 tags:
   - programming
-  - DesignPattern
-  - ArchitecturePattern
+  - programming/DesignPattern
+  - programming/ArchitecturePattern
   - UI
 ---
 > [!important]+ 

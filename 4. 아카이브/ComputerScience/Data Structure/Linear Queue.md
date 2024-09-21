@@ -1,8 +1,8 @@
 ---
 tags:
   - DataStructure
-  - Linear
-  - Queue
+  - DataStructure/Linear
+  - DataStructure/Queue
 ---
 # 선형 큐 ADT
 `create(max_size)`: 최대 크기가 max_size인 공백큐를 생성한다.

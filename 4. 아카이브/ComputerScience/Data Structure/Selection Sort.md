@@ -2,7 +2,7 @@
 subject: DataStructure
 tags:
   - Algorythem
-  - Sort
+  - Algorythem/Sort
 ---
 선택 정렬(Selection Sort)은 정렬 [[알고리즘]] 중 하나로, 배열의 모든 요소를 순차적으로 검사하여 가장 작은 값의 요소를 찾아 해당 위치에 배치하는 방식으로 정렬하는 알고리즘입니다.
 

@@ -1,8 +1,8 @@
 ---
 tags:
   - DataStructure
-  - Tree
-  - Search
+  - DataStructure/Tree
+  - Algorythem/Search
 ---
 2-3 트리는 2-3 검색 트리라고도 불리는 [[Balanced Binary Search Tree|자가 균형 이진 탐색 트리]]의 일종입니다. 
 ## 2-3 트리의 특징

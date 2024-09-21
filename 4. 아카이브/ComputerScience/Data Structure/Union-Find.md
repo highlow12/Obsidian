@@ -1,7 +1,7 @@
 ---
 tags:
   - "#DataStructure"
-  - "#Gragh"
+  - "#DataStructure/Gragh"
 ---
 
 Union-Find는 그래프 이론에서 여러 정점들을 관리하는 자료구조입니다. 주로 연결된 컴포넌트들을 찾거나, 그래프에서의 사이클을 탐지하는 데 사용됩니다.

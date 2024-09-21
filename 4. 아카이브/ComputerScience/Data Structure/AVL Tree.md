@@ -1,9 +1,9 @@
 ---
 subject: DataStructure
 tags:
-  - Search
+  - Algorythem/Search
   - DataStructure
-  - Tree
+  - DataStructure/Tree
 ---
 AVL 트리(AVL Tree)는 [[Balanced Binary Search Tree|균형 이진 탐색 트리]]의 한 종류로, 균형을 유지하기 위해 회전 연산을 사용하는 자기-균형 [[Binary Search Tree]]입니다.
 

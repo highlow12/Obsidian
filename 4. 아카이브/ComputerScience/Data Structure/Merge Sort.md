@@ -1,7 +1,7 @@
 ---
 tags:
   - Algorythem
-  - Sort
+  - Algorythem/Sort
 subject: DataStructure
 ---
 합병 정렬(Merge Sort)은 분할 정복 [[알고리즘]]의 대표적인 예로, 배열을 반으로 나누어 각각 정렬한 뒤 합치는 방식으로 정렬을 수행합니다.

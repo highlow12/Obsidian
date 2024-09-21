@@ -1,8 +1,8 @@
 ---
 tags:
-  - List
+  - DataStructure/List
   - DataStructure
-  - Linear
+  - DataStructure/Linear
 ---
 리스트는 순서가 있는 요소들의 집합을 모델링하는 기본적이고 범용적인 데이터 구조입니다. 리스트는 데이터를 순서대로 저장하고 접근할 수 있는 기능을 제공합니다.
 용도: 투두 리스트, 버킷리스트 

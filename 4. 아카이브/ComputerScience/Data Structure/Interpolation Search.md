@@ -1,7 +1,7 @@
 ---
 tags:
   - Algorythem
-  - Search
+  - Algorythem/Search
 ---
 # 보간 탐색
 - 사전이나 전화번호부를 탐색하는 방법

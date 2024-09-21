@@ -1,9 +1,9 @@
 ---
 tags:
   - DataStructure
-  - Gragh
+  - DataStructure/Gragh
   - Algorythem
-  - Non-Linear
-  - Tree
+  - DataStructure/Non-Linear
+  - DataStructure/Tree
 subject: DataStructure
 ---

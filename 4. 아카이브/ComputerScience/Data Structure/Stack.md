@@ -1,7 +1,7 @@
 ---
 tags:
   - DataStructure
-  - Linear
+  - DataStructure/Linear
   - Stack
 ---
 # 스택의 특징

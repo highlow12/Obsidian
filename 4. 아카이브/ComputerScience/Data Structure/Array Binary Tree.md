@@ -1,9 +1,9 @@
 ---
 tags:
   - DataStructure
-  - Tree
-  - Non-Linear
-  - Array
+  - DataStructure/Tree
+  - DataStructure/Non-Linear
+  - DataStructure/Array
 ---
 **모든 이진 트리를 포화 이진 트리라고 가정하고 
 각 노드에 번호를 붙여서 그 번호를 배열의 인덱스로 삼아 노드의 데이터를 배열에 저장하는 방법**

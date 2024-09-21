@@ -2,8 +2,8 @@
 >[!infobox] **모델-뷰-컨트롤러**  
 >![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/200px-MVC-Process.svg.png)
 >##### Stats  
->- #DesignPattern
->- #ArchitecturePattern
+>- #programming/DesignPattern
+>- #programming/ArchitecturePattern
 >- #UI
 >##### Important
 > 각 레이어의 기능을 제한하여

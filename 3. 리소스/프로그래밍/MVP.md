@@ -2,8 +2,8 @@
 >[!infobox] **모델-뷰-프리젠터**  
 >![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/220px-Model_View_Presenter_GUI_Design_Pattern.png)
 >##### Stats  
->- #DesignPattern
->- #ArchitecturePattern
+>- #programming/DesignPattern
+>- #programming/ArchitecturePattern
 >- #UI 
 
 ###### 모델

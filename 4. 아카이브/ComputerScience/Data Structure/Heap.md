@@ -1,6 +1,6 @@
 ---
 tags:
-  - "#Tree"
+  - "#DataStructure/Tree"
 ---
 노드의 키들이 다음 조건을 만족하는 [[Complete Binary Tree|완전이진트리]]
 `부모.key >= 자식.key

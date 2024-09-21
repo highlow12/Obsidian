@@ -1,9 +1,9 @@
 ---
 tags:
   - DataStructure
-  - Tree
+  - DataStructure/Tree
   - Algorythem
-  - Search
+  - Algorythem/Search
 subject: DataStructure
 ---
 # 균형 이진 탐색 트리

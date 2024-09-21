@@ -1,4 +1,4 @@
-# #싱글톤
+# #programming/DesignPattern/싱글톤
 # 변수
 ## private
 - `int allReceverNum`: 스테이지 내의 모든 리시버 개수

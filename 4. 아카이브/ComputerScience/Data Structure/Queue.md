@@ -1,8 +1,8 @@
 ---
 tags:
   - DataStructure
-  - Linear
-  - Queue
+  - DataStructure/Linear
+  - DataStructure/Queue
 ---
 # 큐의 특징
 ***[[FIFO|FIFO(First in First out)]]***: 선입선출

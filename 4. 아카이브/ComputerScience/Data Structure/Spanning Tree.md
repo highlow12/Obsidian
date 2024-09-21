@@ -1,7 +1,7 @@
 ---
 tags:
-  - Tree
-  - Gragh
+  - DataStructure/Tree
+  - DataStructure/Gragh
   - DataStructure
 ---
 

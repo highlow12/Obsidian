@@ -1,8 +1,8 @@
 ---
 tags:
   - DataStructure
-  - Non-Linear
-  - Tree
+  - DataStructure/Non-Linear
+  - DataStructure/Tree
 ---
 # 트리
 **트리는 부모-자식 간의 관계의 노드들로 이루어진다**

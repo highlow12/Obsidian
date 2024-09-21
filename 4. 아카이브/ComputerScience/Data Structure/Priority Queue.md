@@ -1,8 +1,8 @@
 ---
 tags:
-  - "#Queue"
-  - "#Non-Linear"
-  - Tree
+  - "#DataStructure/Queue"
+  - "#DataStructure/Non-Linear"
+  - DataStructure/Tree
 ---
 # 우선순위 큐 ADT
 - 객체: n개의 element형의 우선순위를 가진 요소들의 모임

@@ -1,6 +1,6 @@
 ---
 tags:
-  - coffing
+  - Coffee/Cupping
 ---
 원두: 빈브라더스 콜롬비아 카스텔론 버번 아루지
 원두양: 5g

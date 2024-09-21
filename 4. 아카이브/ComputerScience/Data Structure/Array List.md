@@ -1,8 +1,8 @@
 ---
 tags:
-  - List
+  - DataStructure/List
   - DataStructure
-  - Linear
+  - DataStructure/Linear
 ---
 # 특징
 1. 장점:
