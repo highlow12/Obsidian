@@ -402,6 +402,27 @@
         "v2_object_id": "6WCmvxcfr7wpw3GG",
         "v2_parent_item_id": null,
         "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
+      },
+      {
+        "event_date": "2024-09-21T10:26:53.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "비주얼노벨 엔딩 스크립트 작업하기",
+          "due_date": "2024-09-21T23:00:00.000000Z",
+          "last_due_date": null,
+          "note_count": 0
+        },
+        "extra_data_id": 25415551089,
+        "id": 25329232441,
+        "initiator_id": null,
+        "object_id": "8415185166",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2339176662",
+        "v2_object_id": "6WCmwFWRJ7pPgqfG",
+        "v2_parent_item_id": null,
+        "v2_parent_project_id": "6W6mM4h9Cx9fqF4G"
       }
     ]
   },
