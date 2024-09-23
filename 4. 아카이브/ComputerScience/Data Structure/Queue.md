@@ -13,3 +13,5 @@ tags:
 ![[Circular Queue]]
 
 # 덱(deque)
+**D**ouble-**E**nded **Que**ue
+![[Deque]]
