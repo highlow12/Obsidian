@@ -5,11 +5,11 @@
   "dataview",
   "editing-toolbar",
   "obsidian-minimal-settings",
-  "ultimate-todoist-sync",
   "obsidian-tasks-plugin",
   "todoist-sync-plugin",
   "homepage",
   "tag-wrangler",
   "obsidian-style-settings",
-  "code-styler"
+  "code-styler",
+  "ultimate-todoist-sync"
 ]
