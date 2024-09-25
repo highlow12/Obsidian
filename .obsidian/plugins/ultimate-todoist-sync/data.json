@@ -34,63 +34,7 @@
         "viewStyle": "list"
       }
     ],
-    "tasks": [
-      {
-        "id": "8415182131",
-        "assignerId": null,
-        "assigneeId": null,
-        "projectId": "2339176662",
-        "sectionId": null,
-        "parentId": null,
-        "order": 4,
-        "content": "비주얼노벨 UI 적용하기",
-        "description": "[0. MoCs/Homepages.md](obsidian://open?vault=Obsidian&file=0.%20MoCs/Homepages.md)",
-        "isCompleted": false,
-        "labels": [
-          "todoist"
-        ],
-        "priority": 1,
-        "commentCount": 0,
-        "creatorId": "50559006",
-        "createdAt": "2024-09-21T10:24:40.365642Z",
-        "due": null,
-        "url": "https://todoist.com/app/task/8415182131",
-        "duration": null,
-        "deadline": null,
-        "path": "0. MoCs/Homepages.md"
-      },
-      {
-        "id": "8415185166",
-        "assignerId": null,
-        "assigneeId": null,
-        "projectId": "2339176662",
-        "sectionId": null,
-        "parentId": null,
-        "order": 5,
-        "content": "비주얼노벨 엔딩 스크립트 작업하기",
-        "description": "[0. MoCs/Homepages.md](obsidian://open?vault=Obsidian&file=0.%20MoCs/Homepages.md)",
-        "isCompleted": true,
-        "labels": [
-          "todoist"
-        ],
-        "priority": 1,
-        "commentCount": 0,
-        "creatorId": "50559006",
-        "createdAt": "2024-09-21T10:26:32.153560Z",
-        "due": {
-          "date": "2024-09-21",
-          "timezone": "Asia/Seoul",
-          "string": "2024-09-22 08:00",
-          "lang": "en",
-          "isRecurring": false,
-          "datetime": "2024-09-21T23:00:00Z"
-        },
-        "url": "https://todoist.com/app/task/8415185166",
-        "duration": null,
-        "deadline": null,
-        "path": "0. MoCs/Homepages.md"
-      }
-    ],
+    "tasks": [],
     "events": [
       {
         "event_date": "2024-09-04T06:47:37.000000Z",
@@ -465,11 +409,8 @@
       "todoistCount": 0
     },
     "0. MoCs/Homepages.md": {
-      "todoistTasks": [
-        "8415182131",
-        "8415185166"
-      ],
-      "todoistCount": 2
+      "todoistTasks": [],
+      "todoistCount": 0
     }
   },
   "enableFullVaultSync": false,

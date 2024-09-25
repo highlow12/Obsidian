@@ -24,3 +24,5 @@ filter: "due before: next week"
 name: 모든 할일
 filter: "View all"
 ```
+- [ ] 비주얼노벨 UI 적용하기 [link](https://todoist.com/app/task/8415182131) #todoist %%[todoist_id:: 8415182131]%%
+- [x] 비주얼노벨 엔딩 스크립트 작업하기📅 2024-09-22 [link](https://todoist.com/app/task/8415185166) #todoist %%[todoist_id::8415185166]%% 
