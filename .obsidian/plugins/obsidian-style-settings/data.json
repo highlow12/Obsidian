@@ -17,5 +17,7 @@
   "minimal-style@@h5-size": "1em",
   "minimal-style@@h6-size": "1em",
   "minimal-style@@h5-variant": "normal",
-  "minimal-style@@h6-variant": "normal"
+  "minimal-style@@h6-variant": "normal",
+  "minimal-style@@minimal-code-scroll": true,
+  "minimal-style@@code-comment@@dark": "#707070"
 }
