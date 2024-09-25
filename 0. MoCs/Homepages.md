@@ -3,8 +3,9 @@
 ### MoC
 ```dataview
 table
-tags
 from "1. 프로젝트" OR "2. 에어리어" AND #MOC
+sort file.cday DESC
+limit 20
 ```
 - - -
 
