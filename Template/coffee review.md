@@ -5,8 +5,6 @@ date:
 rate: 
 major_change:
 ---
-# {{title}}
-{{date}}
 로스터리: 
 로스팅 날짜: 
 레시피: 
