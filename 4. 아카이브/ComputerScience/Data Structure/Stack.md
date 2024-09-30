@@ -5,7 +5,7 @@ tags:
   - DataStructure/Stack
 ---
 # 스택의 특징
-***[[LIFO|LIFO(Last in First out)]]***: 후입선출
+***LIFO(Last in First out)***: 후입선출
 용도: 괄호 계산, 후위연산자 계산 등
 # 스택 추상데이터 타입(ADT)
 ## 객체

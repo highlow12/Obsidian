@@ -1,6 +1,4 @@
-
-
-### MoC
+### MoC in Project & Area
 ```dataview
 table
 from "1. 프로젝트" OR "2. 에어리어" AND #MOC
