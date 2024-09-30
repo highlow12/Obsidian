@@ -5,18 +5,18 @@
       "value": "0. MoCs/Homepages",
       "kind": "File",
       "openOnStartup": true,
-      "openMode": "Replace all open notes",
+      "openMode": "Keep open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Reading view",
       "revertView": true,
       "openWhenEmpty": true,
-      "refreshDataview": false,
+      "refreshDataview": true,
       "autoCreate": false,
       "autoScroll": false,
       "pin": false,
       "commands": [],
       "alwaysApply": false,
-      "hideReleaseNotes": false
+      "hideReleaseNotes": true
     }
   },
   "separateMobile": false
