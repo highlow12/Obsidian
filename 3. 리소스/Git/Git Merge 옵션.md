@@ -1,3 +1,8 @@
+---
+tags:
+  - programming/Git
+---
+
 ## Merge의 다양한 옵션
 ### Merge
 일반적으로 사용되는 방법.

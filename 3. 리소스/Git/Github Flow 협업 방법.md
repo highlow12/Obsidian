@@ -1,6 +1,6 @@
 ---
 tags:
-  - programing
+  - programming/Git
 ---
 
 Github Docs - Github Flow
