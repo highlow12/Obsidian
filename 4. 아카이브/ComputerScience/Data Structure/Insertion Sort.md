@@ -1,8 +1,8 @@
 ---
 subject: DataStructure
 tags:
-  - Algorythem
-  - Algorythem/Sort
+  - programming/Algorythem
+  - programming/Algorythem/Sort
 ---
 
 삽입 정렬(Insertion Sort)은 정렬 [[알고리즘]] 중 하나로, 배열의 모든 요소를 순차적으로 검사하여 해당 위치에 삽입함으로써 정렬하는 방식입니다.

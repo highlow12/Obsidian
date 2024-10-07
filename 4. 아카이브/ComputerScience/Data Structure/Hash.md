@@ -1,7 +1,7 @@
 ---
 subject: DataStructure
 tags:
-  - Algorythem
+  - programming/Algorythem
 ---
 
 - 해싱(hashing) : 키 값에 대한 산술적 연산에 의해 테이블의 주소를 계산하여 항목에 접근

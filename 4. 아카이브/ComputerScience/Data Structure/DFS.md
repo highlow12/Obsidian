@@ -1,7 +1,7 @@
 ---
 tags:
-  - Algorythem
-  - Algorythem/Traversal
+  - programming/Algorythem
+  - programming/Algorythem/Traversal
 ---
 
 # 깊이 우선 탐색

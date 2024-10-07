@@ -2,7 +2,7 @@
 tags:
   - DataStructure
   - DataStructure/Gragh
-  - Algorythem
+  - programming/Algorythem
   - DataStructure/Non-Linear
   - DataStructure/Tree
 subject: DataStructure

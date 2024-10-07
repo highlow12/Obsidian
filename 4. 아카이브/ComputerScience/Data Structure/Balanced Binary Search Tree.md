@@ -2,8 +2,8 @@
 tags:
   - DataStructure
   - DataStructure/Tree
-  - Algorythem
-  - Algorythem/Search
+  - programming/Algorythem
+  - programming/Algorythem/Search
 subject: DataStructure
 ---
 # 균형 이진 탐색 트리
