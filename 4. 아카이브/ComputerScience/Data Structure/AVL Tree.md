@@ -1,7 +1,7 @@
 ---
 subject: DataStructure
 tags:
-  - Algorythem/Search
+  - programming/Algorythem/Search
   - DataStructure
   - DataStructure/Tree
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - programing/book
+  - programming/book
   - book/author/Robert-Martin
 ---
 # 어떤 책인가

@@ -3,8 +3,8 @@ tags:
   - "#DataStructure/Tree"
   - DataStructure
   - DataStructure/Non-Linear
-  - Algorythem/Traversal
-  - Algorythem
+  - programming/Algorythem/Traversal
+  - programming/Algorythem
 ---
 ***순회(Traversal)***: 트리의 노드들을 쳬계적으로 방문 하는 것
 # 기본적인 순회 방법 

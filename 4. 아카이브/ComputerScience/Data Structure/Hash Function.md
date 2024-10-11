@@ -1,7 +1,7 @@
 ---
 subject: DataStructure
 tags:
-  - Algorythem
+  - programming/Algorythem
 ---
 
 # 해시 함수

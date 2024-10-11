@@ -1,6 +1,6 @@
 ---
 tags:
-  - Algorythem
+  - programming/Algorythem
   - DataStructure/Tree
   - DataStructure/Gragh
   - "#DataStructure"
