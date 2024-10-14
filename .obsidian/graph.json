@@ -2,7 +2,7 @@
   "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
@@ -46,7 +46,7 @@
       "query": "path:\"4. 아카이브\"  ",
       "color": {
         "a": 1,
-        "rgb": 12756187
+        "rgb": 8942512
       }
     },
     {
@@ -81,6 +81,6 @@
   "repelStrength": 8.8045738045738,
   "linkStrength": 1,
   "linkDistance": 139,
-  "scale": 0.2986627904992236,
+  "scale": 0.29866279049922384,
   "close": true
 }
