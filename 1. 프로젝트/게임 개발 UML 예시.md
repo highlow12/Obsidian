@@ -1,31 +1,58 @@
-
 ```mermaid
 classDiagram
-    class movement {
-        +float speed
-        +float interval
-        +void move(Vector2 position)
-        +Transform target
-        +Vector2 GetTargetPos()
+    class IMovement {
+        <<interface>>
+        +CalculateMovement(Vector2 currentPosition, Vector2 targetPosition) Vector2
     }
 
-    class stepMovement {
-        +void move(Vector2 position)
-        +Vector2 GetTargetPos()
+    class StraightMovement {
+        -speed: float
+        +StraightMovement(float speed)
+        +CalculateMovement(Vector2 currentPosition, Vector2 targetPosition) Vector2
     }
 
-    class infiniteMovement {
-        +void move(Vector2 position)
-        +Vector2 GetTargetPos()
+    class ZigzagMovement {
+        -speed: float
+        -amplitude: float
+        -frequency: float
+        -time: float
+        +ZigzagMovement(float speed, float amplitude, float frequency)
+        +CalculateMovement(Vector2 currentPosition, Vector2 targetPosition) Vector2
     }
 
-    class followMovement {
-        +void move(Vector2 position)
-        +Vector2 GetTargetPos()
+    class FSMEnemy {
+        -currentMovement: IMovement
+        -targetPosition: Vector2
+        -currentState: EnemyState
+        -movementPatterns: Dictionary~EnemyState, IMovement~
+        +SetState(EnemyState newState) void
+        -Start() void
+        -Update() void
     }
 
-    movement <|-- stepMovement
-    movement <|-- infiniteMovement
-    movement <|-- followMovement
+    class SimpleEnemy {
+        -movement: IMovement
+        -targetPosition: Vector2
+        -Start() void
+        -Update() void
+    }
 
+    class MonoBehaviour {
+        <<abstract>>
+    }
+
+    class EnemyState {
+        <<enumeration>>
+        Chase
+        Retreat
+        Idle
+    }
+
+    IMovement <|.. StraightMovement
+    IMovement <|.. ZigzagMovement
+    MonoBehaviour <|-- FSMEnemy
+    MonoBehaviour <|-- SimpleEnemy
+    FSMEnemy o-- IMovement
+    SimpleEnemy o-- IMovement
+    FSMEnemy -- EnemyState
 ```
