@@ -4,11 +4,9 @@
   "obsidian-kanban",
   "dataview",
   "editing-toolbar",
-  "obsidian-minimal-settings",
   "obsidian-tasks-plugin",
   "todoist-sync-plugin",
   "homepage",
-  "tag-wrangler",
-  "obsidian-style-settings",
-  "ultimate-todoist-sync"
+  "ultimate-todoist-sync",
+  "obsidian-minimal-settings"
 ]
