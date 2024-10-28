@@ -14,14 +14,3 @@ from "2. 에어리어/커피리뷰"
 sort date DESC
 limit 5
 ```
-### 할일
-```todoist
-name: 이번주 할일
-filter: "due before: next week"
-```
-```todoist
-name: 모든 할일
-filter: "View all"
-```
-- [x] 비주얼노벨 UI 적용하기 [link](https://todoist.com/app/task/8415182131) #todoist %%[todoist_id:: 8415182131]%% ✅ 2024-10-05
-- [x] 비주얼노벨 엔딩 스크립트 작업하기📅 2024-09-22 [link](https://todoist.com/app/task/8415185166) #todoist %%[todoist_id::8415185166]%% 
