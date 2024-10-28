@@ -1,9 +1,33 @@
+/* 흰색 배경 콜아웃 스타일 */
 .callout[data-callout="white"] {
     background-color: white !important;
-    border: 1px solid #ddd;
+    border: 1px solid #8a8a8a;
   }
   
+  /* 다크모드에서 콜아웃 스타일 */
   .theme-dark .callout[data-callout="white"] {
     background-color: white !important;
+    border: 1px solid #8a8a8a;
     color: black;
+  }
+  /* 라이트 모드에서 콜아웃 제목 색상 변경 */
+.callout[data-callout="white"] .callout-title {
+    color: black !important;
+  }
+  /* 다크모드에서 콜아웃 제목 색상 변경 */
+.theme-dark .callout[data-callout="white"] .callout-title {
+    color: black !important;
+  }
+  /* 다크모드에서 머메이드 다이어그램 텍스트 색상 변경 */
+  .theme-dark .callout[data-callout="white"] .mermaid {
+    color: black !important;
+  }
+  
+  /* 머메이드 다이어그램의 모든 텍스트 요소 색상 변경 */
+  .theme-dark .callout[data-callout="white"] .mermaid text,
+  .theme-dark .callout[data-callout="white"] .mermaid .messageText,
+  .theme-dark .callout[data-callout="white"] .mermaid .noteText,
+  .theme-dark .callout[data-callout="white"] .mermaid .actor {
+    fill: black !important;
+    color: black !important;
   }
