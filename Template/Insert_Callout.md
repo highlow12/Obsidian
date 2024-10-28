@@ -71,7 +71,8 @@ const CalloutTypes = [
   ["example", 'Example', 'lucide-list'],
   ["quote", 'Quote', 'quote-glyph'],
   ["cite", 'Cite', 'quote-glyph'],
-  ["glyph", 'Glyph', 'quote-glyph']
+  ["glyph", 'Glyph', 'quote-glyph'],
+  ["white", "White", 'lucide-pencil']
 ];
 
 // // list all callouts
