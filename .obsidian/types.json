@@ -5,6 +5,7 @@
     "tags": "tags",
     "major_change": "multitext",
     "date": "date",
-    "Done": "checkbox"
+    "Done": "checkbox",
+    "Done-date": "date"
   }
 }
