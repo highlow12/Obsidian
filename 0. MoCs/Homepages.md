@@ -14,3 +14,8 @@ from "2. 에어리어/커피리뷰"
 sort date DESC
 limit 5
 ```
+### Recent view
+```dataview
+list
+sort file.mday
+```
