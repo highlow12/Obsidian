@@ -16,6 +16,8 @@ limit 5
 ```
 ### Recent view
 ```dataview
-list
-sort file.mday
+Table tags
+FROM ""
+SORT file.mtime DESC
+LIMIT 5
 ```
