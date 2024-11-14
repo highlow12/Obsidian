@@ -23,7 +23,7 @@ LIMIT 5
 ```
 ### Clippings
 ```dataview
-table source 
+table source, published, description
 from "Clippings"
 sort file.cday
 ```
