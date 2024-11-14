@@ -26,20 +26,6 @@ tags:
 - 🔥 `2024/11/08`모델을 공개했습니다! 🤗 [Model](https://huggingface.co/collections/infly/opencoder-672cec44bbb86c39910fb55e) 에서 다운로드하세요 .
 - 🔥 `2024/11/07`Arxiv에 논문을 공개했습니다: 📄 [OpenCoder: 최상위 코드 대규모 언어 모델을 위한 오픈 쿡북](https://arxiv.org/abs/2411.04905) .
 
-## 출시
-
-- 데이터 정리 파이프라인
-- 중간 체크포인트
-- **RefineCode** : 원시 코드 데이터의 메타데이터
-- **RefineCode** : 코드 관련 웹 데이터
-- CodeLLM 평가 프레임워크: OpenCodeEval
-- 고품질 어닐링 데이터
-- 훈련 후 데이터
-- 최종 모델 무게
-- 종이
-
-저희는 모든 리소스를 공개하기 위해 열심히 노력하고 있습니다! 💪
-
 ## 소개
 
 **OpenCoder** 는 영어와 중국어를 모두 지원하는 1.5B 및 8B 기본 및 채팅 모델을 포함하는 개방적이고 재현 가능한 코드 LLM 제품군입니다. 처음부터 OpenCoder는 90% 원시 코드와 10% 코드 관련 웹 데이터로 구성된 2.5조 토큰에서 사전 학습되었으며, 4.5M개 이상의 고품질 SFT 예제에서 미세 조정되어 최종적으로 최상위 코드 LLM의 성능에 도달했습니다. 모델 가중치와 추론 코드뿐만 아니라 재현 가능한 학습 데이터, 완전한 데이터 처리 파이프라인, 엄격한 실험적 절제 결과 및 자세한 학습 프로토콜도 제공합니다. 연구자들이 구축하고 혁신할 수 있도록 지원하는 OpenCoder는 코드 AI를 발전시키기 위한 개방형 기반입니다.
@@ -51,12 +37,12 @@ tags:
 
 ## 모델
 
-| 모델 | 시퀀스 길이 | 허깅페이스 | 와이즈모델 |
-| --- | --- | --- | --- |
-| OpenCoder-1.5B-베이스 | 4K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-1.5B-Base) | [![](https://github.com/OpenCoder-llm/opencoder-llm.github.io/raw/main/static/images/wisemodel_logo.png?raw=true)](https://wisemodel.cn/models/OpenCoder/OpenCoder-1.5B-Base) |
-| 오픈코더-8B-베이스 | 8K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-8B-Base) | [![](https://github.com/OpenCoder-llm/opencoder-llm.github.io/raw/main/static/images/wisemodel_logo.png?raw=true)](https://wisemodel.cn/models/OpenCoder/OpenCoder-8B-Base) |
-| 오픈코더-1.5B-인스트럭트 | 4K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-1.5B-Instruct) | [![](https://github.com/OpenCoder-llm/opencoder-llm.github.io/raw/main/static/images/wisemodel_logo.png?raw=true)](https://wisemodel.cn/models/OpenCoder/OpenCoder-1.5B-Instruct) |
-| 오픈코더-8B-인스트럭트 | 8K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-8B-Instruct) | [![](https://github.com/OpenCoder-llm/opencoder-llm.github.io/raw/main/static/images/wisemodel_logo.png?raw=true)](https://wisemodel.cn/models/OpenCoder/OpenCoder-8B-Instruct) |
+| 모델 | 시퀀스 길이 | 허깅페이스 |
+| --- | --- | --- |
+| OpenCoder-1.5B-베이스 | 4K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-1.5B-Base) | 
+| 오픈코더-8B-베이스 | 8K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-8B-Base) | 
+| 오픈코더-1.5B-인스트럭트 | 4K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-1.5B-Instruct) |
+| 오픈코더-8B-인스트럭트 | 8K | [🤗허깅페이스](https://huggingface.co/infly/OpenCoder-8B-Instruct) |
 
 ## 데이터 세트
 
