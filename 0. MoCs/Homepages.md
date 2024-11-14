@@ -14,10 +14,16 @@ from "2. 에어리어/커피리뷰"
 sort date DESC
 limit 5
 ```
-### Recent view
+### Recent moded
 ```dataview
 Table tags
 FROM ""
 SORT file.mtime DESC
 LIMIT 5
+```
+### Clippings
+```dataview
+table source 
+from "Clippings"
+sort file.cday
 ```
