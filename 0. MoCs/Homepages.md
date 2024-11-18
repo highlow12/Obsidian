@@ -27,3 +27,9 @@ table source, published, description
 from "Clippings"
 sort file.cday
 ```
+### All MoCs
+```dataview
+table file.path, file.mday
+from #MOC
+sort file.mday
+```
