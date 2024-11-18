@@ -19,7 +19,7 @@ limit 5
 Table tags
 FROM ""
 SORT file.mtime DESC
-LIMIT 5
+LIMIT 10
 ```
 ### Clippings
 ```dataview
