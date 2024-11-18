@@ -31,5 +31,5 @@ sort file.cday
 ```dataview
 table file.path, file.mday
 from #MOC
-sort file.mday
+sort file.mday DESC
 ```
