@@ -3,7 +3,7 @@ tags:
   - programming/Algorythem/Sort
 ---
 ### [[빅-오 표기법|시간복잡도]]
-- 시간복잡도: O(n + k)
+- 시간복잡도: O(n + k) 
     - n: 정렬할 배열의 원소 개수
     - k: 배열의 최대값
 
