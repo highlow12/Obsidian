@@ -1,3 +1,11 @@
+---
+tags:
+  - programming/Algorythem
+  - 수정중
+aliases:
+  - 백트래킹
+  - 되추적 기법
+---
 # 되추적 기법
 ## 주요 내용
 - 제약 충족 문제

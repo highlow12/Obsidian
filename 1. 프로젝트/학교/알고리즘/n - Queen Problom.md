@@ -1,6 +1,7 @@
 ---
 tags:
   - programming/Algorythem
+  - 수정중
 aliases:
   - 4 여왕말 문제
   - n 여왕말 문제
