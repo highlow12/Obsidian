@@ -105,3 +105,47 @@ def promissing_queens(assignment=defaultdict(int)):
 - `assignment` 매개변수: 되추적 과정에서 이미 자리를 차지한 여왕말들의 위치 정보를 담은 사전 객체
 - `unassigned`: 아직까지 자리를 잡지 못한 여왕말들의 번호로 구성된 리스트
 - `first`: `unassigned` 에 포함된 여왕말 중에서 가장 낮은 번호의 여왕말. 즉, 이제 위치시켜야할 여왕말 번호.
+
+함수 본체에 사용되는 `for` 반복문은 새로운 여왕말을 위치시키기 위해 모든 열을 대상으로 되추적 기법을 아래와 같이 적용한다.
+- 유망성이 확인되면 되추적 기법을 재귀적으로 적용
+- 유망성이 확인되지 않으면 바로 재귀 적용 중지 후 가장 가까운 조상 노드의 형제 노드로 이동하여 되추적 기법 재귀 적용
+```python
+def backtracking_search_queens(num_queens, assignment=defaultdict(int)):
+    
+    # 변수
+    variables = range(1, num_queens+1)
+    
+    # 도메인: 각각의 여왕말이 위치할 수 있는 칸
+    domains = defaultdict(list)
+
+    columns = range(1, num_queens+1)
+    for var in variables:
+        domains[var] = columns
+    
+    # 재귀 종료 조건: 모든 변수에 대한 값이 지정된 경우
+    if len(assignment) == len(variables):
+        return assignment
+    
+    # 재귀 실행: 아직 자리 잡지 못한 여왕말이 존재하는 경우
+    unassigned = [v for v in variables if v not in assignment]
+    first = unassigned[0] # 다음 대상 여왕말
+    
+    # first 여왕말 위치시키기. 재귀 적용
+    for value in domains[first]:
+        # 기존의 assignment를 보호하기 위해 복사본을 활용함.
+        # 되추적이 발생할 때 이전 할당값을 기억해 두기 위해서임.
+        local_assignment = assignment.copy()
+        local_assignment[first] = value
+
+        # local_assignment 값이 유망하면 되추적 기법 재귀 적용
+        # 즉, 다음 여왕말 대상으로 되추적 기법 적용
+        if promissing_queens(local_assignment):
+            result = backtracking_search_queens(num_queens, local_assignment)
+
+            # 모든 여왕말을 위치시켰을 때 여왕말들의 정보 반환
+            if result is not None:
+                return result
+
+    # 유망성 확인에 실패한 경우 재귀 종료. 즉 가지치기 실행.
+    return None    
+```
