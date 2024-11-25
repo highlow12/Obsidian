@@ -31,3 +31,35 @@
     fill: black !important;
     color: black !important;
   }
+
+[data-type="outline"] {
+  .tree-item-self>.tree-item-inner::before {
+    color: var(--text-accent);
+    transform: scale(0.70);
+    display: inline-block;
+  }
+
+  .tree-item>.tree-item-self>.tree-item-inner::before {
+    content: "H1 ";
+  }
+
+  .tree-item .tree-item>.tree-item-self>.tree-item-inner::before {
+    content: "H2 ";
+  }
+
+  .tree-item .tree-item .tree-item>.tree-item-self>.tree-item-inner::before {
+    content: "H3 ";
+  }
+
+  .tree-item .tree-item .tree-item .tree-item>.tree-item-self>.tree-item-inner::before {
+    content: "H4 ";
+  }
+
+  .tree-item .tree-item .tree-item .tree-item .tree-item>.tree-item-self>.tree-item-inner::before {
+    content: "H5 ";
+  }
+
+  .tree-item .tree-item .tree-item .tree-item .tree-item .tree-item>.tree-item-self>.tree-item-inner::before {
+    content: "H6 ";
+  }
+}
