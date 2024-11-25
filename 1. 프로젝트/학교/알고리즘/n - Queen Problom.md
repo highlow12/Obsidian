@@ -60,11 +60,48 @@ for var in variables:
 >              8: range(1, 9)})
 > ```
 #### 유망성 판단
-세가지 제약 조건이 성립함을 확인해야 한다
+배치된 여왕말의 정보를 저장하는 변수 `assignment`
+```python
+# 4개의 여왕발이 배치되었을 경우의 예시
+assignment = # key : row, value : coluom
+{
+ 1:1,
+ 2:5,
+ 3:8,
+ 4:6
+}
+```
+배치된 말을 대상으로 다음 세가지 제약 조건이 성립함을 확인해야 한다
 - 동일한 행에 위치하지 않기: 각각의 여왕말이 다른 행에 위치하도록 알고리즘이 작동하기에 자연스럽게 처리됨
 - 동일한 열에 위치하지 않기: 서로 다른키에 대해 동일한 값이 사용되지 않도록 해야 함
 - 동일한 대각선 상에 위치하지 않기: 두개의 여왕말 `q1`, `q2`가 동일한 대각선 상에 위치하려면 행과 열의 차이의 절댓값이 같아야 함
 ```python
 abs(q1.r - q2.r) == abs(q1.c - q2.c)
 ```
-ㅇ
+아래 함수는 이미 배치된 여왕말을 대상으로 세개의 제약 조건이 만족하는지 여부를 확인함
+```python
+def promissing_queens(assignment=defaultdict(int)):
+
+    # q1: 모든 여왕말 대상으로 유망성 확인
+    for q1r, q1c in assignment.items(): # q1의 행과 열
+
+        # q2 = 아랫쪽에 자리한 여왕말들과 함께 제약 조건 성립 여부 확인
+        # q1r과 q2r은 자연스럽게 다름
+        for q2r in range(q1r + 1, len(assignment) + 1): 
+            q2c = assignment[q2r]
+            if q1c == q2c:                       # 동일 열에 위치?
+                return False
+            if abs(q1r - q2r) == abs(q1c - q2c): # 동일 대각선상에 위치?
+                return False 
+
+    # 모든 변수에 대해 제약조건 만족됨
+    return True 
+```
+#### 되추적 함수 구현
+아래 `backtracking_search_queens()` 함수는 n-여왕말 문제를 되추적 기법으로 해결한다. 함수 정의에 사용된 변수들의 기능은 다음과 같다
+- `num_queens`: 여왕말의 개수
+- `variables`: 여왕말 번호
+- `domains`: 각 여왕말의 도메인(영역). 여기서는 모두 1부터 `num_queens` 까지의 번호 사용.
+- `assignment` 매개변수: 되추적 과정에서 이미 자리를 차지한 여왕말들의 위치 정보를 담은 사전 객체
+- `unassigned`: 아직까지 자리를 잡지 못한 여왕말들의 번호로 구성된 리스트
+- `first`: `unassigned` 에 포함된 여왕말 중에서 가장 낮은 번호의 여왕말. 즉, 이제 위치시켜야할 여왕말 번호.
