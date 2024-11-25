@@ -30,3 +30,33 @@ aliases:
 - 변수: 1번무터 n번까지 이름이 붙은 n개의 여왕말
 - 도메인: n\*n모양의 체스판에 포함된 1번부터 n번 열
 - 제약 조건: 서로 다른 두개의 여왕말이 하나의 행, 열, 또는 대각선 상에 위치하지 않음
+### 예제: 8 - 여왕말 문제
+#### 상태 공간 트리
+```python
+from collections import defaultdict
+
+# 변수: 네 개의 여왕말의 번호, 즉, 1, 2, ..., 8
+variables = range(1, 9)
+
+# 도메인: 각각의 여왕말이 자리잡을 수 있는 가능한 모든 열의 위치. 
+# domains = 상태 공간 트리를 사전 형식으로 구현한 것
+domains = defaultdict(list)
+
+columns = range(1, 9)
+for var in variables:
+    domains[var] = columns
+```
+> [!summary]+ Output
+> ```
+> >> domains
+> defaultdict(list,
+>             {1: range(1, 9),
+>              2: range(1, 9),
+>              3: range(1, 9),
+>              4: range(1, 9),
+>              5: range(1, 9),
+>              6: range(1, 9),
+>              7: range(1, 9),
+>              8: range(1, 9)})
+> ```
+#### 유망성 판단
