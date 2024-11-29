@@ -1,19 +1,18 @@
 ---
 title: "glowingjade/obsidian-smart-composer: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support."
-source: "https://github.com/glowingjade/obsidian-smart-composer"
+source: https://github.com/glowingjade/obsidian-smart-composer
 author:
   - "[[GitHub]]"
-published:
+  - glowingjade
+published: 
 created: 2024-11-28
-description: "AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support. - glowingjade/obsidian-smart-composer"
+description: AI chat assistant for Obsidian with contextual awareness, smart writing assistance, and one-click edits. Features vault-aware conversations, semantic search, and local model support. - glowingjade/obsidian-smart-composer
 tags:
-  - "clippings"
+  - clippings
 ---
 ## 스마트 컴포저
 
 [문서](https://github.com/glowingjade/obsidian-smart-composer/wiki) · [버그 보고](https://github.com/glowingjade/obsidian-smart-composer/issues) · [토론](https://github.com/glowingjade/obsidian-smart-composer/discussions)
-
-[![SC1_제목.gif](https://private-user-images.githubusercontent.com/18643499/376500532-a50a1f80-39ff-4eba-8090-e3d75e7be98c.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zNzY1MDA1MzItYTUwYTFmODAtMzlmZi00ZWJhLTgwOTAtZTNkNzVlN2JlOThjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiYzczNzYwZTg3NzQ0NDBhNDQ2MzAzY2U2Njc4ZmI0MGRkYzNiNWI1Y2E1Yjg0NmQ0MzkxMzBmNjk4NzJhYWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.U4JDOw6Jc0w48N2bfJxxzUuysKYY_IiPBRDh79hLqPE)](https://private-user-images.githubusercontent.com/18643499/376500532-a50a1f80-39ff-4eba-8090-e3d75e7be98c.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zNzY1MDA1MzItYTUwYTFmODAtMzlmZi00ZWJhLTgwOTAtZTNkNzVlN2JlOThjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZiYzczNzYwZTg3NzQ0NDBhNDQ2MzAzY2U2Njc4ZmI0MGRkYzNiNWI1Y2E1Yjg0NmQ0MzkxMzBmNjk4NzJhYWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.U4JDOw6Jc0w48N2bfJxxzUuysKYY_IiPBRDh79hLqPE)
 
 ChatGPT에 질문할 때마다 각 쿼리에 대해 많은 컨텍스트 정보를 입력해야 합니다. 왜 이미 볼트에 있는 배경 정보를 입력하는 데 시간을 허비합니까?
 
@@ -22,8 +21,6 @@ ChatGPT에 질문할 때마다 각 쿼리에 대해 많은 컨텍스트 정보�
 ## 특징
 
 ### 컨텍스트 채팅
-
-[![SC2_컨텍스트채팅.gif](https://private-user-images.githubusercontent.com/18643499/376500555-8da4c189-399a-450a-9591-95f1c9af1bc8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zNzY1MDA1NTUtOGRhNGMxODktMzk5YS00NTBhLTk1OTEtOTVmMWM5YWYxYmM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1ODM4NDc3YWYyMTYxMGQ5ODZiNWJlZTQ0MGEyZmNhOTg4NWMwNGFjZjNiODViN2M3MjI0MmFkNDk4Mzc1YzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wwoBOVkv7Mm1Sk5_qvCork0wWytLNkhz19m7vw0ULHE)](https://private-user-images.githubusercontent.com/18643499/376500555-8da4c189-399a-450a-9591-95f1c9af1bc8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zNzY1MDA1NTUtOGRhNGMxODktMzk5YS00NTBhLTk1OTEtOTVmMWM5YWYxYmM4LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc1ODM4NDc3YWYyMTYxMGQ5ODZiNWJlZTQ0MGEyZmNhOTg4NWMwNGFjZjNiODViN2M3MjI0MmFkNDk4Mzc1YzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wwoBOVkv7Mm1Sk5_qvCork0wWytLNkhz19m7vw0ULHE)
 
 > Cursor AI에서 영감을 받은 Contextual AI Assistant로 노트 작성 경험을 업그레이드하세요. 일반적인 AI 플러그인과 달리, 저희의 Assistant를 사용하면 **대화의 맥락을 정확하게 선택할 수 있습니다.**
 
@@ -42,8 +39,6 @@ ChatGPT에 질문할 때마다 각 쿼리에 대해 많은 컨텍스트 정보�
 
 ### 편집 적용
 
-[![SC3_ApplyEdit.gif](https://private-user-images.githubusercontent.com/18643499/376500560-35ee03ff-4a61-4d08-8032-ca61fb37dcf1.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zNzY1MDA1NjAtMzVlZTAzZmYtNGE2MS00ZDA4LTgwMzItY2E2MWZiMzdkY2YxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlNTg3OGIyZGJhM2Y4MTljNjY0MWVhYjI1MDMwMGUzMGIyZDY2ZDJmYWJjNzMxZmFjNmI2ODY4OGRiM2ZkMzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-W6H3ZBhJ2wkAx6nxvUKKFMcks_RJMcpX3h4MTU17vI)](https://private-user-images.githubusercontent.com/18643499/376500560-35ee03ff-4a61-4d08-8032-ca61fb37dcf1.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zNzY1MDA1NjAtMzVlZTAzZmYtNGE2MS00ZDA4LTgwMzItY2E2MWZiMzdkY2YxLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlNTg3OGIyZGJhM2Y4MTljNjY0MWVhYjI1MDMwMGUzMGIyZDY2ZDJmYWJjNzMxZmFjNmI2ODY4OGRiM2ZkMzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-W6H3ZBhJ2wkAx6nxvUKKFMcks_RJMcpX3h4MTU17vI)
-
 > Smart Composer는 **문서에 대한 편집을 제안합니다.** 한 번의 클릭으로 적용할 수 있습니다.
 
 - 문서 변경 권장 사항을 제공합니다
@@ -52,8 +47,6 @@ ChatGPT에 질문할 때마다 각 쿼리에 대해 많은 컨텍스트 정보�
 참고: Apply Edit 기능은 현재 원하는 것보다 느립니다. 향후 업데이트에서 개선을 위해 노력하고 있습니다.
 
 ### 볼트 검색(RAG)
-
-[![SC4_RAG-ezgif.com-crop-video.gif](https://private-user-images.githubusercontent.com/43122135/380013647-91c3ab8d-56d7-43b8-bb4a-1e73615a40ec.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii80MzEyMjEzNS8zODAwMTM2NDctOTFjM2FiOGQtNTZkNy00M2I4LWJiNGEtMWU3MzYxNWE0MGVjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzMWUzMTZmMDI0MjBiMTQ5NTFjOTFlNDNkYjZiNTk3NTRhNGI1MTRjMWI4ZDQ5ZGViNjlhOWU1MmE1MWI3YzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ttLXMf5AhE_q1b1xJYNudUpDAwt6ljeA_00WOo2bSxs)](https://private-user-images.githubusercontent.com/43122135/380013647-91c3ab8d-56d7-43b8-bb4a-1e73615a40ec.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii80MzEyMjEzNS8zODAwMTM2NDctOTFjM2FiOGQtNTZkNy00M2I4LWJiNGEtMWU3MzYxNWE0MGVjLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzMWUzMTZmMDI0MjBiMTQ5NTFjOTFlNDNkYjZiNTk3NTRhNGI1MTRjMWI4ZDQ5ZGViNjlhOWU1MmE1MWI3YzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ttLXMf5AhE_q1b1xJYNudUpDAwt6ljeA_00WOo2bSxs)
 
 > 보관소에서 **관련 메모를 자동으로 찾아 활용하여 AI 대응을 강화하세요.**
 
@@ -101,45 +94,3 @@ ChatGPT에 질문할 때마다 각 쿼리에 대해 많은 컨텍스트 정보�
 
 - 이미지 입력이나 외부 파일(PDF, DOCX 등) 지원
 - 태그 또는 기타 메타데이터로 언급
-
-## 피드백 및 지원
-
-귀하의 의견을 소중히 여기며 귀하가 쉽게 생각을 공유하고 문제를 보고할 수 있도록 하고자 합니다.
-
-- **버그 리포트** : 버그나 예상치 못한 동작이 발생하면 [GitHub Issues](https://github.com/glowingjade/obsidian-smart-composer/issues) 페이지에 문제를 제출하세요. 문제를 재현하고 해결하는 데 도움이 되도록 가능한 한 자세한 내용을 포함하세요.
-- **기능 요청 : 새로운 기능 아이디어나 개선 사항이 있으면** [GitHub Discussions - Ideas & Feature Requests](https://github.com/glowingjade/obsidian-smart-composer/discussions/categories/ideas-feature-requests) 페이지를 사용하세요 . 새로운 토론을 만들어 제안을 공유하세요. 이를 통해 커뮤니티 참여가 가능하고 향후 개발의 우선순위를 정하는 데 도움이 됩니다.
-- **Show and Tell : 여러분이 Smart Composer를 어떻게 사용하는지 보는 것을 좋아합니다!** [GitHub Discussions - Smart Composer Showcase](https://github.com/glowingjade/obsidian-smart-composer/discussions/categories/smart-composer-showcase) 페이지 에서 플러그인의 고유한 사용 사례, 워크플로 또는 흥미로운 응용 프로그램을 공유하세요 .
-
-여러분의 피드백과 경험은 모든 사람을 위해 Smart Composer를 더욱 개선하는 데 매우 중요합니다!
-
-## 기여하다
-
-버그 리포트, 버그 수정, 문서 개선, 기능 향상 등 Smart Composer에 대한 모든 종류의 기여를 환영합니다.
-
-**주요 기능에 대한 아이디어가 있으시면 먼저 이슈를 생성하여 실현 가능성과 구현 방법을 논의해 주세요.**
-
-기여에 관심이 있으시다면 [CONTRIBUTING.md](https://github.com/glowingjade/obsidian-smart-composer/blob/main/CONTRIBUTING.md) 파일을 참조하여 자세한 내용을 확인하세요.
-
-- 개발 환경 설정
-- 우리의 개발 워크플로
-- 데이터베이스 스키마 작업
-- 풀 리퀘스트 제출 프로세스
-- 개발자를 위한 알려진 문제 및 솔루션
-
-## 특허
-
-이 프로젝트는 [MIT 라이선스](https://github.com/glowingjade/obsidian-smart-composer/blob/main/LICENSE) 에 따라 라이선스가 부여되었습니다 .
-
-## 프로젝트 지원하기
-
-Smart Composer가 가치 있다고 생각되면 개발을 지원하는 것을 고려하세요.
-
-[![나에게 커피 한 잔 사줘](https://private-user-images.githubusercontent.com/18643499/380204548-e794767d-b7dd-40eb-9132-e48ae7088000.svg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzI4MDUzNDksIm5iZiI6MTczMjgwNTA0OSwicGF0aCI6Ii8xODY0MzQ5OS8zODAyMDQ1NDgtZTc5NDc2N2QtYjdkZC00MGViLTkxMzItZTQ4YWU3MDg4MDAwLnN2Zz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMTI4VDE0NDQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMwZDIxMjE0NTE3OWM2YWM4OWRiMmMyMmEzOTc1YWNlYzM5YTI3NDY0MDg3N2IzNzkwZjE0YTk4OGRmMTViM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zfnJiX8BhSCQUa2xfC0_HAoZObJjFoLJbwtPZU-kbTw)](https://www.buymeacoffee.com/glowingjade)
-
-최신 소식과 공지 사항을 받아보려면 X(Twitter) [@andy\_suh\_](https://x.com/andy_suh_) 에서 저를 팔로우하세요 !
-
-귀하의 지원은 이 플러그인을 유지하고 개선하는 데 도움이 됩니다. 모든 기여는 감사하게 생각되며 변화를 만들어냅니다. 귀하의 지원에 감사드립니다!
-
-## 별의 역사
-
-[![별의 역사 차트](https://camo.githubusercontent.com/9d339cc6ee7fb0406af56554e2e2dab80e2bab69489bf5b14be0be94b24c6cf2/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d676c6f77696e676a6164652f6f6273696469616e2d736d6172742d636f6d706f73657226747970653d44617465)](https://star-history.com/#glowingjade/obsidian-smart-composer&Date)
