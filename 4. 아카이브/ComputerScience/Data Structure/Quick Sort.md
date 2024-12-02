@@ -3,6 +3,8 @@ tags:
   - programming/Algorythem
   - programming/Algorythem/Sort
 subject: DataStructure
+aliases:
+  - 퀵 소트
 ---
 퀵 정렬의 주요 특징은 다음과 같습니다:
 

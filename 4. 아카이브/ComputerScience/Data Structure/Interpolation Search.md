@@ -2,6 +2,8 @@
 tags:
   - programming/Algorythem
   - programming/Algorythem/Search
+aliases:
+  - 보간 탐색
 ---
 # 보간 탐색
 - 사전이나 전화번호부를 탐색하는 방법

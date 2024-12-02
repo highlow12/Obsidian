@@ -1,3 +1,11 @@
+---
+aliases:
+  - 프림 알고리즘
+tags:
+  - DataStructure/Tree
+  - DataStructure/Gragh
+---
+
 프림 알고리즘(Prim's Algorithm)은 그래프 이론에서 [[Spanning Tree|최소 스패닝 트리(Minimum Spanning Tree, MST)]]를 찾기 위한 알고리즘 중 하나입니다. 이 알고리즘은 정점 중심 접근 방식(vertex-centric approach)을 사용하여 MST를 구성합니다. 주어진 그래프에서 하나의 시작 정점에서 출발하여, 해당 정점과 연결된 간선 중에서 가장 낮은 가중치를 가진 간선을 선택하고, 새로운 정점을 MST에 추가해가는 방식으로 동작합니다.
 # 알고리즘 단계
 1. **시작 정점 선택**: 임의의 시작 정점을 선택합니다.

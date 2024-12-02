@@ -1,3 +1,9 @@
+---
+tags:
+  - DataStructure/Gragh
+  - programming/Algorythem/Traversal
+---
+
 하나의 정점으로부터 시작하여 차례대로 모든 정점들을 한번씩 방문
 많은 문제들이 단순히 그래프의 노드를 탐색하는 것으로 해결됨
 	ex)

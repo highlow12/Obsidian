@@ -2,6 +2,8 @@
 tags:
   - programming/Algorythem
   - programming/Algorythem/Search
+aliases:
+  - 순차 탐색
 ---
 # 순차탐색
 - 탐색 방법 중에서 가장 간단하고 직접적인 탐색 방법

@@ -4,6 +4,8 @@ tags:
   - DataStructure/Tree
   - DataStructure/Gragh
   - "#DataStructure"
+aliases:
+  - 크루스칼 알고리즘
 ---
 크루스칼 알고리즘(Kruskal's Algorithm)은 그래프 이론에서 [[Spanning Tree#^26488b|최소 스패닝 트리(Minimum Spanning Tree, MST)]]를 찾기 위한 대표적인 알고리즘입니다. 이 알고리즘은 간선 중심 접근 방식(edge-centric approach)을 사용하며, 그래프의 모든 간선을 가중치 순으로 정렬한 후, 사이클을 형성하지 않도록 하나씩 선택하여 MST를 구성합니다.
 
