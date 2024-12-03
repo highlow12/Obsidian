@@ -29,7 +29,7 @@
     "baseUrl": "",
     "model": ""
   },
-  "systemPrompt": "Always answer in Korean.",
+  "systemPrompt": "Always answer in Korean. Internal file links are formatted as [[‘filename’]]. Embedding an internal file is formatted as ![[‘filename’]]. External links are formatted as [‘alias’] (URL). The format for embedding an external link is ![‘alias’](URL).",
   "ragOptions": {
     "chunkSize": 1000,
     "thresholdTokens": 8192,
