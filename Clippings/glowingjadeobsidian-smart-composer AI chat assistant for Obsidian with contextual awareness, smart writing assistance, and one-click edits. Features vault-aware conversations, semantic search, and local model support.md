@@ -10,6 +10,10 @@ description: AI chat assistant for Obsidian with contextual awareness, smart wri
 tags:
   - clippings
 ---
+## 요약
+
+Smart Composer는 Obsidian에서 AI 기반 글쓰기를 위한 강력한 도구입니다. 컨텍스트 채팅, 편집 적용, 볼트 검색(RAG) 등의 주요 기능을 통해 효율적인 콘텐츠 생성을 지원합니다. 멀티미디어 컨텍스트 지원으로 웹사이트 링크 및 YouTube 대본을 활용할 수 있으며, 향후 이미지 및 외부 파일 지원도 예정되어 있습니다. 사용자 정의 모델 선택, 로컬 모델 지원, 사용자 정의 시스템 프롬프트, 프롬프트 템플릿 등 다양한 추가 기능도 제공합니다. 자세한 내용은 문서 및 GitHub 프로젝트 칸반 보드를 참조하십시오.
+
 ## 스마트 컴포저
 
 [문서](https://github.com/glowingjade/obsidian-smart-composer/wiki) · [버그 보고](https://github.com/glowingjade/obsidian-smart-composer/issues) · [토론](https://github.com/glowingjade/obsidian-smart-composer/discussions)
@@ -94,3 +98,4 @@ ChatGPT에 질문할 때마다 각 쿼리에 대해 많은 컨텍스트 정보�
 
 - 이미지 입력이나 외부 파일(PDF, DOCX 등) 지원
 - 태그 또는 기타 메타데이터로 언급
+```
