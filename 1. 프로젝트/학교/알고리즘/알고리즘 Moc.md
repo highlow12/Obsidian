@@ -10,8 +10,16 @@ tags:
 [[2. 상속]]
 [[3. 추상 알고리즘과 자료구조]]
 # 선형 자료 구조
-[[4.덱]]
-[[5. 큐]]
+[[Deque|4.덱]]
+[[Queue#선형 큐 (liner queue)|5. 큐]]
 [[Stack|6. 스택]]
 # 알고리즘 시간 복잡도
 [[빅-오 표기법]]
+[[차수]]
+# 재귀
+[[재귀함수]]
+# 탐색과 정렬
+[[탐색과 분할정복]]
+[[Bubble Sort]], [[Selection Sort]], [[Merge Sort]], [[Quick Sort]]
+# 되추적 기법
+[[Backtracking]]
