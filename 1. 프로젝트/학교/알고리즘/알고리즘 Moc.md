@@ -20,7 +20,6 @@ tags:
 [[순환 알고리즘|재귀함수]]
 # 탐색과 정렬
 [[탐색과 분할정복]]
-[[분]]
 [[Bubble Sort]], [[Selection Sort]], [[Merge Sort]], [[Quick Sort]]
 # 되추적 기법
 [[Backtracking]]
