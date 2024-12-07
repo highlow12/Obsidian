@@ -17,7 +17,7 @@ tags:
 [[빅-오 표기법]]
 [[차수]]
 # 재귀
-[[재귀함수]]
+[[순환 알고리즘|재귀함수]]
 # 탐색과 정렬
 [[탐색과 분할정복]]
 [[Bubble Sort]], [[Selection Sort]], [[Merge Sort]], [[Quick Sort]]
