@@ -2,11 +2,12 @@
 tags:
   - programming/Algorythem
   - 수정중
+  - programming/Algorythem/BruteForce
+  - programming/Algorythem/DFS
 aliases:
   - 백트래킹
   - 되추적 기법
 ---
-# 되추적 기법
 ## 주요 내용
 - 제약 충족 문제
 - 되추적 기법
@@ -34,5 +35,5 @@ aliases:
 >![[DFS]]
 
 ![[State Space Tree]]
-![[n - Queen Problom#4 여왕말 문제 되추적 알고리즘]]
+
 # 그래프 색칠하기

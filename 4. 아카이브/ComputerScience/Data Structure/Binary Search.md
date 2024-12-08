@@ -2,6 +2,7 @@
 tags:
   - programming/Algorythem
   - programming/Algorythem/Search
+  - programming/Algorythem/Divide_and_Conquer
 ---
 # 이진 탐색
 - 정렬된 배열의 중앙에 있는 값을 조사하여 찾고자 하는 항목이 왼쪽 또는 오른쪽 부분 배열에 있는지를 알아내어 탐색의 범위를 반으로 줄여가며 탐색 진행 

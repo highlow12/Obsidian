@@ -2,6 +2,7 @@
 tags:
   - programming/Algorythem
   - programming/Algorythem/Sort
+  - programming/Algorythem/Divide_and_Conquer
 subject: DataStructure
 aliases:
   - 퀵 소트
