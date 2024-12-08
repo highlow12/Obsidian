@@ -15,5 +15,5 @@ folderFiles.sort((a, b) => a.basename.localeCompare(b.basename));
 let linkList = folderFiles.map(file => `- [[${file.basename}]]`).join('\n');
 
 // 결과 출력
-tR += `${linkList}`;
+tR += `## 같은 폴더의 파일들\n\n${linkList}`;
 %>
