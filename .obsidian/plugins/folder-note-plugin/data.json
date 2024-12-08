@@ -5,5 +5,5 @@
   "folderNoteKey": "ctrl",
   "folderNoteAutoRename": true,
   "folderDelete2Note": false,
-  "folderNoteStrInit": "# {{FOLDER_NAME}} Overview\n{{FOLDER_BRIEF_LIVE}}\n"
+  "folderNoteStrInit": "<%*\n// 현재 노트의 폴더 경로 가져오기\nconst currentFile = tp.file.folder(true);\n\n// 같은 폴더에 있는 모든 파일 목록 가져오기\nconst folderFiles = app.vault.getFiles().filter(file => \n    file.path.startsWith(currentFile) && \n    file.path !== tp.file.path(true)\n);\n\n// 파일들을 알파벳순으로 정렬\nfolderFiles.sort((a, b) => a.basename.localeCompare(b.basename));\n\n// 링크 생성\nlet linkList = folderFiles.map(file => `- [[${file.basename}]]`).join('\\n');\n\n// 결과 출력\ntR += `## 같은 폴더의 파일들\\n\\n${linkList}`;\n%>"
 }
