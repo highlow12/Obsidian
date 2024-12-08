@@ -12,17 +12,8 @@
   "enable_system_commands": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "*",
-      "template": "_about_"
-    },
-    {
-      "folder": "",
-      "template": ""
-    }
-  ],
+  "enable_folder_templates": false,
+  "folder_templates": [],
   "enable_file_templates": false,
   "file_templates": [
     {
