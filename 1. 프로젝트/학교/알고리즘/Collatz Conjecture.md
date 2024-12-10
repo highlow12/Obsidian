@@ -6,8 +6,6 @@ aliases:
   - 우박수
   - 우박 수열
 ---
-
-
 콜라츠 추측(Collatz Conjecture)은 양의 정수 $n$에 대해 다음과 같은 연산을 반복할 경우, 결국에는 항상 1에 도달한다는 추측입니다.
 $$
 f(n) = \begin{cases} n/2 & \text{if n is even}\\ 3n+1 & \text{if n is odd}\end{cases}
