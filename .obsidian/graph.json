@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "section:(_about_)",
-      "color": {
-        "a": 1,
-        "rgb": 16777215
-      }
-    },
-    {
       "query": "tag:#DataStructure  ",
       "color": {
         "a": 1,
@@ -50,6 +43,13 @@
       }
     },
     {
+      "query": "path:\"2. 에어리어\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5359697
+      }
+    },
+    {
       "query": "path:\"4. 아카이브\"  ",
       "color": {
         "a": 1,
@@ -61,20 +61,6 @@
       "color": {
         "a": 1,
         "rgb": 4675799
-      }
-    },
-    {
-      "query": "path:\"2. 에어리어\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 5359697
-      }
-    },
-    {
-      "query": "path:Template  ",
-      "color": {
-        "a": 1,
-        "rgb": 1938957
       }
     }
   ],
@@ -88,6 +74,6 @@
   "repelStrength": 15.3742203742204,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.2986627904992245,
+  "scale": 0.2986627904992262,
   "close": true
 }
