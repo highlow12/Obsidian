@@ -1,6 +1,6 @@
 ---
 tags:
-  - programming/Algorythem
+  - programming/Algorythem/Recursion
 aliases:
   - 콜라즈 추측
   - 우박수
