@@ -1,17 +1,4 @@
-body {
-  font-family: D2coding, Adobe Clean UX, MARU Buri Beta, monospace;
-  ;
-}
 
-.theme-dark,
-.theme-light {
-  --default-font: D2coding, Actor, MARU Buri Beta, monospace;
-  --font-family-editor: D2coding, Actor, MARU Buri Beta, monospace;
-}
-
-strong {
-  font-weight: 900 !important;
-}
 
 /* image center align */
 img[alt*="center"] {
