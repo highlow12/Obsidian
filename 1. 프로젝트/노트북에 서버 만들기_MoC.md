@@ -1,4 +1,12 @@
-
+---
+tags:
+  - MOC
+  - Web
+  - Server
+  - Linux
+  - javascript/Node_js/Next_js
+  - javascript/React
+---
 # 노트북에 서버 만들기
 
 - [x] 노트북에 [[리눅스]] 설치
