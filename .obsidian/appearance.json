@@ -15,5 +15,6 @@
     "infobox",
     "newCallout"
   ],
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "showRibbon": true
 }
