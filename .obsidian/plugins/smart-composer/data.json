@@ -4,7 +4,7 @@
   "anthropicApiKey": "",
   "geminiApiKey": "AIzaSyChoMEF3pCjV1DyknLb425bYcRFsFyQ3Xo",
   "groqApiKey": "",
-  "chatModelId": "gemini/gemini-1.5-pro",
+  "chatModelId": "gemini/gemini-exp-1206",
   "ollamaChatModel": {
     "baseUrl": "",
     "model": ""
@@ -14,7 +14,7 @@
     "apiKey": "",
     "model": ""
   },
-  "applyModelId": "gemini/gemini-1.5-flash",
+  "applyModelId": "gemini/gemini-2.0-flash",
   "ollamaApplyModel": {
     "baseUrl": "",
     "model": ""
@@ -29,12 +29,13 @@
     "baseUrl": "",
     "model": ""
   },
-  "systemPrompt": "Always answer in Korean. Internal file links are formatted as [[‘filename’]]. Embedding an internal file is formatted as ![[‘filename’]]. External links are formatted as [‘alias’] (URL). The format for embedding an external link is ![‘alias’](URL).",
+  "systemPrompt": "Always answer in Korean. Internal file links are formatted as [[‘filename’]]. Embedding an internal file is formatted as ![[‘filename’]]. External links are formatted as [‘alias’](URL). The format for embedding an external link is ![‘alias’](URL). You are the master of Personal Knowalge Managering. Actively use Markdown and LaTeX syntax.",
   "ragOptions": {
     "chunkSize": 1000,
     "thresholdTokens": 8192,
     "minSimilarity": 0,
     "limit": 10,
-    "excludePatterns": []
+    "excludePatterns": [],
+    "includePatterns": []
   }
 }
