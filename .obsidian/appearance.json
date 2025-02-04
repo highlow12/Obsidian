@@ -1,11 +1,11 @@
 {
-  "accentColor": "#316fea",
-  "interfaceFontFamily": "KoPubDotum,D2Coding",
+  "accentColor": "",
+  "interfaceFontFamily": "D2Coding,KoPubDotum",
   "textFontFamily": "KoPubDotum,D2Coding",
   "monospaceFontFamily": "Courier New,D2Coding",
-  "cssTheme": "Minimal",
-  "baseFontSize": 16,
-  "theme": "obsidian",
+  "cssTheme": "",
+  "baseFontSize": 17,
+  "theme": "moonstone",
   "translucency": false,
   "nativeMenus": true,
   "enabledCssSnippets": [
