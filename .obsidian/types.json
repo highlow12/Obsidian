@@ -6,6 +6,7 @@
     "major_change": "multitext",
     "date": "date",
     "Done": "checkbox",
-    "Done-date": "date"
+    "Done-date": "date",
+    "Start date": "date"
   }
 }
